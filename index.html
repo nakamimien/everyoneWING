@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ローカル版シャニマス W.I.N.G.（非公式）</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="debug-panel" class="hidden"></div>
+<!-- v0.15a: 画面下部常設ログペイン（フッター直上・常時表示・高さ120px固定） -->
+<div id="global-log" class="global-log-pane">
+  <div class="glp-empty">（実行結果がここに表示されます）</div>
+</div>
+<footer id="footer">
+  <span>誰でもW.I.N.G. v0.25.48（非公式・個人用ファンメイド）</span>
+  <span id="play-timer" class="hidden"></span>
+  <span class="footer-hint">[D]キーでデバッグパネル</span>
+</footer>
+
+<!-- file:// 直開き対応のため fetch/ESモジュール不使用。読み込み順固定 -->
+<script src="js/data/config.js"></script>
+<script src="js/data/cards.js"></script>
+<script src="js/data/idol.js"></script>
+<script src="js/loadout.js"></script>
+<script src="js/state.js"></script>
+<script src="js/produce.js"></script>
+<script src="js/audition.js"></script>
+<script src="js/sim.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/sim_ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
