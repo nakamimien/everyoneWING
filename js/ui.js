@@ -2819,7 +2819,7 @@ SC.effectPopHtml = function (title, list, o) {
   const rows = list.length ? list.map(function (e) {
     return '<div class="effect-pop-row passive-pop-row ep-' + (e.tone || 'neutral') + '">' +
       '<div class="passive-pop-name"><span class="ep-label">' + E(e.label) + '</span>' + (e.value ? '<b class="ep-value">' + E(e.value) + '</b>' : '') + '</div>' +
-      '<div class="passive-pop-conds ep-sub"><span class="pp-cond ep-turns">' + ((e.turnsLeft === null || e.turnsLeft === undefined) ? '期限なし' : '残り' + e.turnsLeft + 'ターン') + '</span>' +
+      '<div class="passive-pop-conds ep-sub"><span class="pp-cond ep-turns">' + (typeof e.turnsText === 'string' ? E(e.turnsText) : (e.turnsLeft === null || e.turnsLeft === undefined) ? '期限なし' : '残り' + e.turnsLeft + 'ターン') + '</span>' +   // v0.25.52: turnsText＝合計行など期限の無い説明（興味（最終））
         (e.src ? '<span class="pp-cond ep-src">由来: ' + E(e.src) + '</span>' : '') + '</div></div>';
   }).join('') : '<p class="passive-pop-empty">付与されている効果はありません</p>';
   const notes = (o.notes || []).map(function (t) { return '<div class="ep-note">' + E(t) + '</div>'; }).join('');

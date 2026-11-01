@@ -126,6 +126,7 @@ SC.cardLiveSkill = function (card, attr) {
     };
     if (ep.allAudience === true) sk.allJudges = true;
     if (ls.extra && ls.extra.length > 0) sk.extra = ls.extra;
+    sk.effectRaw = [ls.effect].concat(ls.extra || []).filter(Boolean).join('/');   // v0.25.52: 効果文（必ず最初/最後に・[興味無視]・[魅了強化] の判定に使う。上の appeal 経路と同じ）
     const reB = SC.cardRandomEffects(card, ls.name);   // v0.25.35: ランダム効果付与の候補
     if (reB) sk.randomEffects = reB;
     return sk;
@@ -517,6 +518,8 @@ SC.makeCardPassive = function (p, key, ownerNum, effectFields) {
     if (def._memGaugePct === undefined) def._memGaugeAdd = Number(mGauge[1]);
     def._memGaugeNow = /発動時に思い出ゲージ/.test(rawFx);
   }
+  // v0.25.52: 「Visual150%UP/興味無視」＝発動したターン、自分のアピールに興味無視を付与（firePassives のバフ型が 'ignoreInt' を付ける）。アピールのタグ [興味無視] とは別物
+  if (/(^|\/)興味無視($|\/)/.test(rawFx.replace(/\[興味無視\]/g, ''))) def._ignoreInterestGrant = true;
   return def;
 };
 

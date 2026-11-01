@@ -116,6 +116,9 @@ SC.startAudition = function (defId, preTalkResult) {
       gained: 0, need: def.hp[mode], gone: false,
       dealt: {}, bonusStep: {}, lastHitBy: null, taTo: null, laTo: null,
       interests: [],      // v0.14: 興味倍率エントリ配列 [{ mult, until }]【wiki効果解説】
+      interestFlips: [],  // v0.25.52: 興味反転 [{ until, src }]（重ねても1回分）
+      interestLimits: [], // v0.25.52: 興味限定 [{ until, src }]
+      charms: [],         // v0.25.52: 魅了 [{ until, src, boost? }]（付けたのは自分＝自分のアピールだけに効く）
       influencePct: 0,    // v0.14: 影響力%（加算）【wiki効果解説】
     };
   });
@@ -376,9 +379,11 @@ SC.firePassives = function () {
       player.debuffs.push({ attr: attr, pct: pct, untilTurn: a.turn + turns - 1, src: 'passive' });   // v0.25.40: パッシブ由来の印（[消去:◯◯]の対象外）
     });
     gaugeUp(pd._memGaugeAdd, !!pd._memGaugeNow, pd.name);   // v0.25.47: 「Dance75%UP/思い出ゲージ25%UP」等のゲージ分（従来は捨てていた。発動時に が無いので次のターン）
+    // v0.25.52: 「Visual150%UP/興味無視」＝発動したターン、自分のアピールに興味無視が付く【wiki: 興味無視(付与効果)】（状態効果 'ignoreInt'。passive:true＝左下のパッシブ枠で見る）
+    if (pd._ignoreInterestGrant) SC.addStatus('ignoreInt', { pct: 0, untilTurn: a.turn + turns - 1, src: panelKey, passive: true });
     markFired();
     const attrLabel = attrs.map(function (x) { return SC.ATTR_LABEL[x] || x; }).join('&');
-    SC.auditionLog(`⚡パッシブ「${pd.name}」発動！ ${attrLabel} +${pct}%[${turns}T]${pd._memGaugeAdd ? ' / 思い出ゲージ+' + pd._memGaugeAdd + '%' + (pd._memGaugeNow ? '' : '（次のターン）') : ''}`, 'good');
+    SC.auditionLog(`⚡パッシブ「${pd.name}」発動！ ${attrLabel} +${pct}%[${turns}T]${pd._ignoreInterestGrant ? ' / 興味無視[' + turns + 'T]' : ''}${pd._memGaugeAdd ? ' / 思い出ゲージ+' + pd._memGaugeAdd + '%' + (pd._memGaugeNow ? '' : '（次のターン）') : ''}`, 'good');
     // FX（1080p実測）: パッシブは下半分の大型カットイン（ピンクストライプ帯+立ち絵+効果名）
     SC.fxPush({ type: 'cutin', cls: 'passive', logo: 'Passive Skill',
       text: (pd.name || '') + '&nbsp;&nbsp;' + attrLabel + '+' + pct + '%[' + turns + 'T]',
@@ -474,7 +479,7 @@ SC.condMet = function (cond) {
     return e.person.indexOf(cond.person) >= 0 || cond.person.indexOf(e.person) >= 0;
   })) return false;
   if (cond.t === 'charmOnJudge' && !a.judges.some(function (j) {
-    return !j.gone && j.charmUntil !== undefined && j.charmUntil >= a.turn;
+    return !j.gone && SC.charmCount(j) > 0;   // v0.25.52: 魅了は judge.charms（旧セーブの charmUntil も SC.charmCount が数える）
   })) return false;
   // v0.25.35: メンタルダメージCUTの付与=状態効果 'dmgCut'（ダメージカットパッシブが発動して有効中）
   if (cond.t === 'hasDamCut' && SC.sumStatusPct('dmgCut') <= 0) return false;
@@ -707,7 +712,7 @@ SC.pushHistory = function (owner, attr) {
 // relax=リラックス（被メンタルダメージ軽減[推測]）/ passProb=パッシブ発動率UP / passBoost=パッシブ強化
 // melancholySelf=メランコリー（被メンタルダメージ増加[推測]）/ resurrection=復活[1回]（脱落時N%で復帰[推測]）
 // hitomi=瞳の輝き（条件参照用・固有効果は要仕様確認）/ apUp={人物}のアピール倍率UP
-// 魅了は審査員側（j.charmUntil）に保持
+// 魅了は審査員側（v0.25.52: j.charms。旧 j.charmUntil）に保持
 SC.addStatus = function (key, entry) {
   const a = SC.state.audition;
   if (!a) return;
@@ -929,6 +934,106 @@ SC.interestMult = function (judge) {
     if (ef.until >= a.turn) mult *= ef.mult;
   });
   return mult;
+};
+
+// ==== v0.25.52: 興味操作（興味N倍・興味反転・興味限定・興味無視）と魅了 ====
+// 【wiki】情報/wiki/skill_effects.txt「興味◯倍」「興味反転」「興味限定」「興味無視」「魅了」・ユーザー確認（2026-11-01）:
+//   審査員に付く状態効果なので、付けた後に行動するライバルのアピールにも効く（魅了だけは付けた自分のアピールにのみ効く）。
+//   効果文の記載順に効く（同じスキル内でも、興味の節より後ろの PLUS/LINK のアピールには効く。本体アピールは自分の興味の影響を受けない）。
+//   [Nターン] の持続は他の状態効果と同じ until = 付与ターン + N − 1。興味無視のアピールは UP/DOWN・反転・限定をすべて無視する
+SC._judgeEffActive = function (list) {
+  const a = SC.state && SC.state.audition;
+  const turn = (a && isFinite(a.turn)) ? a.turn : 1;
+  return (list || []).filter(function (e) { return e && e.until >= turn; });
+};
+SC.interestFlipped = function (judge) { return !!judge && SC._judgeEffActive(judge.interestFlips).length > 0; };
+SC.interestLimited = function (judge) { return !!judge && SC._judgeEffActive(judge.interestLimits).length > 0; };
+// 魅了の個数（有効中）。旧セーブの charmUntil（1個扱い）も数える
+SC.charmCount = function (judge) {
+  if (!judge) return 0;
+  const a = SC.state && SC.state.audition;
+  const legacy = (a && judge.charmUntil !== undefined && judge.charmUntil >= a.turn) ? 1 : 0;
+  return SC._judgeEffActive(judge.charms).length + legacy;
+};
+// 自分のアピールにかかる魅了の倍率（1 + 20%×個数。魅了強化アピールは魅了の効果×1.5）【wiki】
+SC.charmAppealMult = function (judge, boosted) {
+  const n = SC.charmCount(judge);
+  if (n <= 0) return 1;
+  const C = SC.CONFIG.audition.charm;
+  return 1 + n * C.pct / 100 * (boosted ? C.boostMult : 1);
+};
+// 最終的な興味の倍率（限定は含まない）: 興味N倍の総積 → 反転があれば max(下限, 2 − 総積) → 自分のアピールで魅了があれば 1倍未満を1倍に
+SC.interestFinalMult = function (judge, own) {
+  if (!judge) return 1;
+  const I = SC.CONFIG.audition.interest;
+  let m = SC.interestMult(judge);
+  if (SC.interestFlipped(judge)) m = Math.max(I.flipFloor, I.flipBase - m);
+  if (own && m < 1 && SC.charmCount(judge) > 0) m = 1;
+  return Math.round(m * 1e9) / 1e9;   // 2 − 1.6 = 0.3999… のような浮動小数の揺れを丸める
+};
+// 審査員 judge への属性 attr のアピール1発にかける興味の係数。opt = { ignore: 興味無視, own: 自分のアピールか }。
+//   興味限定中は審査員の属性と違うアピールは 0（満足度が上がらない）。Excellent（'ex'）は属性一致扱い（ユーザー確認）
+SC.interestFactor = function (judge, attr, opt) {
+  opt = opt || {};
+  if (!judge || opt.ignore) return 1;
+  if (attr !== 'ex' && SC.interestLimited(judge) && attr !== judge.attr) return 0;
+  return SC.interestFinalMult(judge, !!opt.own);
+};
+// 自分のアピールが今「興味無視」状態か（パッシブ「Visual150%UP/興味無視」等の付与効果。発動したターンのみ）
+SC.ignoreInterestActive = function () { return SC.activeStatuses('ignoreInt').length > 0; };
+// 審査員に興味の効果を付ける。eff = { kind: 'mult'|'flip'|'limit', mult? }
+SC.addJudgeInterest = function (targets, eff, turns, src) {
+  const a = SC.state.audition;
+  const until = a.turn + turns - 1;
+  (targets || []).forEach(function (j) {
+    if (!j) return;
+    if (eff.kind === 'mult') { if (!j.interests) j.interests = []; j.interests.push({ mult: eff.mult, until: until, src: src || '' }); }
+    else if (eff.kind === 'flip') { if (!j.interestFlips) j.interestFlips = []; j.interestFlips.push({ until: until, src: src || '' }); }
+    else if (eff.kind === 'limit') { if (!j.interestLimits) j.interestLimits = []; j.interestLimits.push({ until: until, src: src || '' }); }
+  });
+};
+// 効果文の興味の節「(全観客に)興味N倍[Nターン]」「興味反転[Nターン]」「興味限定[Nターン]」。グループ: 1=全観客に 2=倍率 3=反転 4=限定 5=ターン数
+//   （(Grow)節の「興味最大N倍／興味最小N倍」は対象外＝Grow 未実装）
+SC._interestClauseRegex = function (global) {
+  return new RegExp('(全観客に)?興味(?:([\\d.]+)倍|(反転)|(限定))\\s*\\[(\\d+)ターン\\]', global ? 'g' : '');
+};
+SC.interestClauseEffect = function (m) {
+  if (m[2] !== undefined) { const v = parseFloat(m[2]); return isFinite(v) ? { kind: 'mult', mult: v } : null; }
+  return m[3] ? { kind: 'flip' } : { kind: 'limit' };
+};
+// 札の本体（先頭の節）の効果文。effectRaw の (Link) 前・最初の「/」まで（表記ゆれは SC.normalizeVarAppealText で正規化）。効果文の無い札は ''
+SC._mainClauseCache = {};
+SC.cardMainClause = function (card) {
+  const raw = String((card && card.effectRaw) || '');
+  if (!raw) return '';
+  if (SC._mainClauseCache[raw] === undefined) SC._mainClauseCache[raw] = SC.normalizeVarAppealText(raw).split('(Link)')[0].split('/')[0];
+  return SC._mainClauseCache[raw];
+};
+// 本体アピールが [興味無視] か（追加アピールの [興味無視] は applyExtraEffects / extraAppealPredict が節ごとに見る）
+SC.cardIgnoresInterest = function (card) {
+  if (!card) return false;
+  if (card.ignoreInterest === true) return true;
+  return /倍アピール(?:\[[^\[\]]*\])*\[興味無視\]/.test(SC.cardMainClause(card));
+};
+// 本体アピールが [魅了強化]（魅了の効果を1.5倍で計算）か
+SC.cardCharmBoost = function (card) {
+  if (!card) return false;
+  if (card.charmBoost === true) return true;
+  return /倍アピール(?:\[[^\[\]]*\])*\[魅了強化\]/.test(SC.cardMainClause(card));
+};
+// 行動順「必ず最初に／必ず最後に」（resolveTurn が見る）。札の order（仮データ）か、効果文の先頭から読む
+//   （cards.js の effect.order は札を作る経路で落ちていて一度も効いていなかった。v0.25.52 で効果文から判定）
+SC.cardActOrder = function (card) {
+  if (!card) return null;
+  if (card.order === 'first' || card.order === 'last') return card.order;
+  const m = String(card.effectRaw || '').match(/^\s*必ず(最初|最後)に/);
+  return m ? (m[1] === '最初' ? 'first' : 'last') : null;
+};
+// 追加アピール1件（_extraApRegex のマッチ m・text はマッチ元）に [興味無視] が付いているか（タグ群の中か、直後）
+SC._extraApIgnoresInterest = function (text, m) {
+  const tag = (m[3] !== undefined ? m[4] : m[7]) || '';
+  if (tag.indexOf('興味無視') >= 0) return true;
+  return /^\s*(?:\[[^\[\]]*\])*\[興味無視\]/.test(String(text).slice(m.index + m[0].length));
 };
 
 // v0.25.7: 複合属性スキル（attrs配列）が指定属性を含むか（UI予測のExcellent表示用）
@@ -1157,24 +1262,53 @@ SC.extraAppealPredict = function (card, judgeAttr, coef, judgeObj, linkOk, vctx,
   const ctx = Object.assign({}, card.varCtx || {}, vctx || {});
   const condMap = condOk || SC.extraCondSnapshot(card);   // v0.25.44: 条件節は使用前の状態で評価（applyExtraEffects と同じ）
   const apRe = SC._extraApRegex(true);
+  const intRe = SC._interestClauseRegex(true);
+  const chRe = /(全観客に)?魅了(?!強化)/g;
   const a = SC.state && SC.state.audition;
   const pl = a && a.units && a.units[0], keepDeb = pl ? pl.debuffs : null;
+  // v0.25.52: 興味の節・魅了は「その後ろのアピール」に効く（applyExtraEffects と同じ記載順）。予測では対象の審査員 judgeObj に一時的に積み、終わったら戻す
+  //   （単体札の予測＝その審査員を選んだ場合／全体札＝各審査員なので、興味・魅了の対象は常に judgeObj）
+  const JK = ['interests', 'interestFlips', 'interestLimits', 'charms'];
+  const keepJ = judgeObj ? JK.map(function (k) { return judgeObj[k]; }) : null;
   try {
     SC.parseExtraSegments(card).forEach(function (seg) {
       if (seg.viaLink && !linkOk) return;
       if (seg.cond && !condMap[seg.cond]) return;
+      const evs = [];
       let m;
       apRe.lastIndex = 0;
-      while ((m = apRe.exec(seg.text)) !== null) {
-        if (SC._extraApAfterGrow(seg.text, m)) continue;   // (Grow)節の倍率変動アピールは対象外（applyExtraEffects と同じ）
+      while ((m = apRe.exec(seg.text)) !== null) evs.push({ i: m.index, ap: m });
+      intRe.lastIndex = 0;
+      while ((m = intRe.exec(seg.text)) !== null) evs.push({ i: m.index, it: m });
+      chRe.lastIndex = 0;
+      while ((m = chRe.exec(seg.text)) !== null) evs.push({ i: m.index, ch: m });
+      evs.sort(function (x, y) { return x.i - y.i; }).forEach(function (ev) {
+        if (ev.it || ev.ch) {
+          if (!judgeObj || !a) return;
+          if (ev.it) {
+            const eff = SC.interestClauseEffect(ev.it);
+            const k = eff && (eff.kind === 'mult' ? 'interests' : eff.kind === 'flip' ? 'interestFlips' : 'interestLimits');
+            if (!k) return;
+            judgeObj[k] = (judgeObj[k] || []).concat([eff.kind === 'mult' ? { mult: eff.mult, until: a.turn } : { until: a.turn }]);
+          } else {
+            judgeObj.charms = (judgeObj.charms || []).concat([{ until: a.turn }]);
+          }
+          return;
+        }
+        m = ev.ap;
+        if (SC._extraApAfterGrow(seg.text, m)) return;   // (Grow)節の倍率変動アピールは対象外（applyExtraEffects と同じ）
         const rv = SC.extraApResolve(m, ctx);
+        const ign = SC._extraApIgnoresInterest(seg.text, m);
         SC._extraToAttrs(m[2]).forEach(function (exAttr) {
-          total += SC.playerAppealValue({ name: card.name, attr: exAttr, mult: rv.mult, owner: card.owner }, judgeAttr, coef, judgeObj);
+          total += SC.playerAppealValue({ name: card.name, attr: exAttr, mult: rv.mult, owner: card.owner, ignoreInterest: ign }, judgeAttr, coef, judgeObj);
         });
         if (rv.erase && pl) pl.debuffs = SC._varFilterErased(pl.debuffs, rv.erase);   // 消去は「そのアピールの後」（実行側 processSingle と同じ順序）
-      }
+      });
     });
-  } finally { if (pl) pl.debuffs = keepDeb; }
+  } finally {
+    if (pl) pl.debuffs = keepDeb;
+    if (keepJ) JK.forEach(function (k, i) { judgeObj[k] = keepJ[i]; });
+  }
   return total;
 };
 
@@ -1215,9 +1349,12 @@ SC.playerAppealValue = function (card, judgeAttr, coef, judgeObj) {
   const matchMult = (isExSkill || attr === resolvedJudgeAttr) ? SC.CONFIG.audition.judge.excellent : 1;
   let v = SC.floorE(matchMult * mult * pa);
   // v0.14: 興味補正を乗算（judgeObj がある場合のみ）【wiki効果解説】。従来どおり最後に INT(値×倍率)
+  //   v0.25.52: 興味反転・興味限定（不一致属性は0）・[興味無視]（本体のタグ／追加アピールは card.ignoreInterest／付与効果 'ignoreInt'）・魅了（自分のアピール+20%×個数。
+  //   [魅了強化] は×1.5・興味1倍未満を1倍に）を SC.interestFactor / SC.charmAppealMult で。端数は従来どおり最後に1回 INT [推測]
   if (judgeObj) {
-    const iMult = SC.interestMult(judgeObj);
-    if (iMult !== 1.0) v = SC.floorE(v * iMult);
+    const ign = SC.cardIgnoresInterest(card) || SC.ignoreInterestActive();
+    const f = SC.interestFactor(judgeObj, isExSkill ? 'ex' : attr, { ignore: ign, own: true }) * SC.charmAppealMult(judgeObj, SC.cardCharmBoost(card));
+    if (f !== 1.0) v = SC.floorE(v * f);
   }
   return Math.max(0, isFinite(v) ? v : 0);
 };
@@ -1233,8 +1370,14 @@ SC.playerMemoryValue = function (judge, coef) {
   const W = SC.elapsedWeeks();
   const wMod = 0.2 * (1 + 0.1 * W);
   const mMult = SC.CONFIG.audition.memoryMult[SC.memoryLv()];
+  // v0.25.52: 興味限定中の審査員には一致属性の分（2×mem_J）だけが入る（【wiki】「3属性のステータスが同じならアピール値は半減」・ユーザー確認）。
+  //   そのうえで最終的な興味の倍率（反転・魅了の1倍下限込み）と魅了+20%×個数を掛ける（従来は思い出に興味が掛かっていなかった）。
+  //   付与効果の興味無視（'ignoreInt'）中は興味を無視 [推測: wiki「思い出による〆ターンへの影響を考慮」]
+  const ign = SC.ignoreInterestActive();
+  const limited = !ign && SC.interestLimited(judge);
   let total = 0;
   SC.ATTRS.forEach(function (attr) {
+    if (limited && attr !== judge.attr) return;
     const P = st.stats[attr];
     const S = SC.SUPPORTS.reduce(function (s, sup) { return s + sup.stats[attr]; }, 0);
     const buff = SC.buffMod(st.audition.units[0], attr);
@@ -1242,7 +1385,9 @@ SC.playerMemoryValue = function (judge, coef) {
     const v = SC.floorE(pa * mMult);
     total += (attr === judge.attr) ? v * 2 : v;
   });
-  return Math.max(0, total);
+  const f = (ign ? 1 : SC.interestFinalMult(judge, true)) * SC.charmAppealMult(judge, false);
+  if (f !== 1) total = SC.floorE(total * f);
+  return Math.max(0, isFinite(total) ? total : 0);
 };
 
 // v0.25.37: Pアイドルの思い出アピール（現在の実効Lv）の「付随効果」と「LINK効果」を、applyExtraEffects に渡せる擬似札にする。
@@ -1284,6 +1429,8 @@ SC.rivalAppealValue = function (u, judge, coefKey) {
   if (a.turn >= A.rivalMysteryBuff.fromTurn && SC.chance(A.rivalMysteryBuff.rate)) {
     v *= A.rivalMysteryBuff.mult;
   }
+  // v0.25.52: 審査員の興味（N倍・反転・限定）はライバルにも効く【wiki】。アピールの属性＝得意属性（ユーザー確認）。魅了は自分だけなので掛けない。四捨五入は最後に1回 [推測・ユーザー了承]
+  v *= SC.interestFactor(judge, u.fav, { own: false });
   return Math.round(v);
 };
 
@@ -1427,12 +1574,14 @@ SC.resolveTurn = function (playerAction) {
   const actors = SC.buildActors(player.judgement);
 
   // order: 'first'/'last' フラグ対応（今ターン使用カードに order がある場合）
+  //   v0.25.52: 実カードの「必ず最初に／必ず最後に」は効果文から判定（SC.cardActOrder）。従来は札に order が渡っておらず一度も効いていなかった
   if (playerAction.type === 'appeal' || playerAction.type === 'heal') {
     const usedCard = a.deck[a.hand[playerAction.cardPos]];
-    if (usedCard && usedCard.order === 'first') {
+    const actOrder = SC.cardActOrder(usedCard);
+    if (actOrder === 'first') {
       const pidx = actors.findIndex(function (act) { return act.kind === 'unit' && act.unit.isPlayer; });
       if (pidx > 0) { actors.unshift(actors.splice(pidx, 1)[0]); }
-    } else if (usedCard && usedCard.order === 'last') {
+    } else if (actOrder === 'last') {
       const pidx2 = actors.findIndex(function (act) { return act.kind === 'unit' && act.unit.isPlayer; });
       if (pidx2 >= 0 && pidx2 < actors.length - 1) { actors.push(actors.splice(pidx2, 1)[0]); }
     }
@@ -1804,6 +1953,9 @@ SC.applyExtraEffects = function (card, pa, coef, targetJudge, linkOk, vctx, cond
   // v0.25.40: 倍率変動アピール（追加アピールの「最大N倍[tag]」「A~B倍[tag]」）の係数 f の文脈。card.varCtx（思い出の付随/LINK=memory:true）＋呼び出し側の vctx（使用前の履歴件数 histLen）。
   //   予測 SC.extraAppealPredict と同じ SC.extraApResolve を使う（二重実装しない）
   const varCtx = Object.assign({}, card.varCtx || {}, vctx || {});
+  // v0.25.52: 興味・魅了を付ける審査員の範囲。対象を選ばない使い方（全体札・思い出・効果札）は全員。単体札は選んだ審査員だけだが、
+  //   同じスキル内で先に「全観客に…アピール」があればそれ以降は全員【wiki: 後段の効果も全観客にかかる】。節に「全観客に」と書いてあれば全員
+  let allScope = !targetJudge;
 
   // 1効果分の適用。マッチしたら該当文字列（match[0]）を返し、呼び出し側が残りを再処理する
   const processSingle = function (text, tag) {
@@ -1845,13 +1997,15 @@ SC.applyExtraEffects = function (card, pa, coef, targetJudge, linkOk, vctx, cond
       const mult = rv.mult;
       const fTxt = rv.f !== null ? `・倍率変動×${rv.f.toFixed(2)}${rv.fallback ? '[仮データ0.6]' : ''}` : '';
       const targets = exAll ? SC.aliveJudges().slice() : (targetJudge && !targetJudge.gone ? [targetJudge] : []);
+      const exIgnore = SC._extraApIgnoresInterest(text, mAp);   // v0.25.52: この追加アピールの [興味無視]（本体のタグは引き継がない【wiki】）
+      if (mAp[1]) allScope = true;
       targets.forEach(function (j) {
         attrs.forEach(function (exAttr) {
           // v0.25.8: owner継承（計算式がP札/サポ札で異なるため。従来はowner欠落でサポ式に落ちていた）
-          const exCard = { name: card.name, attr: exAttr, mult: mult, owner: card.owner };
+          const exCard = { name: card.name, attr: exAttr, mult: mult, owner: card.owner, ignoreInterest: exIgnore };
           const jv = SC.playerAppealValue(exCard, j.attr, coef, j);
           SC.applyAppeal(player, j, jv,
-            `${card.name}・追加${attrs.length > 1 ? '・' + SC.ATTR_LABEL[exAttr] : ''}${exAttr === j.attr ? '・Excellent!!' : ''}${fTxt}${tag}`);
+            `${card.name}・追加${attrs.length > 1 ? '・' + SC.ATTR_LABEL[exAttr] : ''}${exAttr === j.attr ? '・Excellent!!' : ''}${exIgnore ? '・興味無視' : ''}${fTxt}${tag}`);
         });
       });
       if (rv.erase) {
@@ -1859,6 +2013,19 @@ SC.applyExtraEffects = function (card, pa, coef, targetJudge, linkOk, vctx, cond
         if (nEr > 0) SC.auditionLog(`${player.name}：${SC._varEraseLabel(rv.erase)} のステータス効果を${nEr}個消去${tag}`, 'good');
       }
       return mAp[0];
+    }
+    // v0.25.52: 興味N倍・興味反転・興味限定（審査員に付く状態効果。この後に行動するライバルのアピールと、同じスキルの後ろのアピールに効く）
+    const mInt = text.match(SC._interestClauseRegex(false));
+    if (mInt) {
+      const eff = SC.interestClauseEffect(mInt);
+      const turns = parseInt(mInt[5]);
+      if (eff && turns > 0) {
+        const tgs = (mInt[1] || allScope) ? SC.aliveJudges().slice() : (targetJudge && !targetJudge.gone ? [targetJudge] : []);
+        SC.addJudgeInterest(tgs, eff, turns, card.name);
+        const what = eff.kind === 'mult' ? '興味' + eff.mult + '倍' : (eff.kind === 'flip' ? '興味反転' : '興味限定');
+        if (tgs.length > 0) SC.auditionLog(`${tgs.length >= SC.aliveJudges().length && tgs.length > 1 ? '全審査員' : tgs.map(function (j) { return j.name; }).join('・')}に${what}[${turns}T]${tag}`, eff.kind === 'mult' && eff.mult > 1 ? 'good' : '');
+      }
+      return mInt[0];
     }
     // v0.20a: 注目度DOWN（自身の注目度を下げる → 狙われにくくなる）／v0.25.43: 注目度UP（狙われやすくなる）も同じ経路で付与
     //   v0.25.43: [Nターン]どおりに切れる状態効果 'attn'（SC.attentionMultOf が有効中のものだけ乗算）。従来は player.attentionMult に永続で乗算（[Nターン]を無視）し、
@@ -1941,12 +2108,17 @@ SC.applyExtraEffects = function (card, pa, coef, targetJudge, linkOk, vctx, cond
       SC.auditionLog(`${player.name}：瞳の輝き[${exTurns}T]（固有効果は要仕様確認・条件参照のみ）`, 'good');
       return mSt[0];
     }
-    // 魅了（「魅了強化」はwikiリンク表記のノイズなので除外）
+    // 魅了（「魅了強化」は本体アピールのタグ＝SC.cardCharmBoost が見るので除外）
+    //   v0.25.52: wiki の仕様に変更（ユーザー指定）＝付けた自分のその審査員へのアピール+20%（複数は加算）・最終的な興味が1倍未満なら1倍（SC.charmAppealMult / SC.interestFinalMult）。
+    //   従来の「リアクション停止 [推測]」は撤去。judge.charms に積む（同じスキルの後ろのアピールにも効く）
     mSt = text.match(/(全観客に)?魅了(?!強化)/);
     if (mSt) {
-      const charmTargets = (mSt[1] || !targetJudge) ? SC.aliveJudges().slice() : [targetJudge];
-      charmTargets.forEach(function (j) { if (j) j.charmUntil = a.turn + exTurns - 1; });
-      SC.auditionLog(`審査員に魅了[${exTurns}T]（リアクション停止[推測]）${tag}`, 'good');
+      const charmTargets = (mSt[1] || allScope) ? SC.aliveJudges().slice() : (targetJudge && !targetJudge.gone ? [targetJudge] : []);
+      charmTargets.forEach(function (j) {
+        if (!j.charms) j.charms = [];
+        j.charms.push({ until: a.turn + exTurns - 1, src: card.name });
+      });
+      if (charmTargets.length > 0) SC.auditionLog(`${charmTargets.length > 1 ? '全審査員' : charmTargets[0].name}に魅了[${exTurns}T]（自分のアピール+${SC.CONFIG.audition.charm.pct}%・興味DOWN無効）${tag}`, 'good');
       return mSt[0];
     }
     mSt = text.match(/(.+?)のアピール倍率([\d.]+)倍?UP/);   // v0.25.35: wiki表記ゆれ「アピール倍率0.2UP」（倍の脱落。ROOTSのランダム効果候補）も同じ効果として扱う
@@ -2013,6 +2185,9 @@ SC.execRivalAction = function (u) {
       ? A2.rivalMysteryBuff.mult : 1;
     SC.aliveJudges().slice().forEach(function (j) {
       let v = a.def.atk[a.mode] * coef * SC.CONFIG.audition.judge.excellent * mystery;
+      // v0.25.52: 興味限定の審査員には半減（一致属性の分だけ。ユーザー確認）・最終的な興味の倍率（反転込み）を掛ける
+      if (SC.interestLimited(j)) v *= SC.CONFIG.audition.interest.memoryLimitMult;
+      v *= SC.interestFinalMult(j, false);
       v = Math.round(v);
       // v0.25.17: ライバル思い出も音符の波（アイドルのアピール=音符・審査員リアクション=レーザーで統一）
       SC.fxPush({ type: 'shot', from: 'unit:' + u.key, to: 'judge:' + a.judges.indexOf(j), hue: 285, n: 8, style: 'notes', duration: 300 });   // v0.25.18: 1人ずつ順に（ユーザー指定）
@@ -2038,11 +2213,7 @@ SC.execRivalAction = function (u) {
 SC.judgeReaction = function (judge) {
   const a = SC.state.audition;
   const A = SC.CONFIG.audition.judge;
-  // v0.25.13: 魅了中の審査員はリアクションしない[推測]
-  if (judge.charmUntil !== undefined && judge.charmUntil >= a.turn) {
-    SC.auditionLog(`💘 ${judge.name}は魅了されていてリアクションできない！`, 'good');
-    return;
-  }
+  // v0.25.52: 「魅了中の審査員はリアクションしない」（v0.25.13 [推測]）は撤去。wiki の魅了は「自分のアピール+20%・興味1倍未満を1倍に」だけ（ユーザー指定）
   // v0.14: 重み付き抽選（注目度 attentionMult ベース）【wiki効果解説】
   const targets = SC.weightedSampleUnits(SC.aliveUnits(), a.way);
   const isBoost = a.turn % A.reactEvery === 0;
@@ -2186,6 +2357,7 @@ SC.passiveEffectText = function (pd) {
   const parts = [];
   const attrs = (pd._buffAttrs && pd._buffAttrs.length > 0) ? pd._buffAttrs : (pd._buffAttr ? [pd._buffAttr] : []);
   if (attrs.length > 0 && typeof pd._buffPct === 'number') parts.push(attrs.map(function (a) { return AL[a] || a; }).join('&') + '+' + pd._buffPct + '%[' + T + 'T]');
+  if (pd._ignoreInterestGrant) parts.push('興味無視[' + T + 'T]');   // v0.25.52
   // v0.25.47: 思い出ゲージは「発動時に」なら発動したターン、無ければ次のターンに上がる（表記で区別）。バフ型・回復型に付いたゲージ分（_memGaugeAdd）も出す
   const gNext = pd._memGaugeNow ? '' : '（次ターン）';
   if (pd._memGaugePct !== undefined) parts.push('思い出ゲージ+' + pd._memGaugePct + '%' + gNext);
@@ -2261,7 +2433,8 @@ SC._STATUS_VIEW = [
   { key: 'hitomi', label: '瞳の輝き', val: function () { return ''; }, tone: 'good' },
   { key: 'dmgCut', label: 'メンタルダメージCUT', val: function (e) { return Number(e.pct) + '%'; }, tone: 'good' },
   { key: 'avoid', label: 'リアクション回避率UP', val: function (e) { return SC._effSigned(e.pct); }, tone: 'good' },
-  { key: 'apUp', label: function (e) { return (e.person || '') + 'のアピール倍率UP'; }, val: function (e) { return '+' + Number(Number(e.pct).toFixed(2)); }, tone: 'good' }
+  { key: 'apUp', label: function (e) { return (e.person || '') + 'のアピール倍率UP'; }, val: function (e) { return '+' + Number(Number(e.pct).toFixed(2)); }, tone: 'good' },
+  { key: 'ignoreInt', label: '興味無視', val: function () { return ''; }, tone: 'neutral' }   // v0.25.52: 付与効果の興味無視（今はパッシブ由来だけ＝passive:true なのでここには出ない。ライブスキル由来が来た時用）
 ];
 // 自ユニットに付いているステータス効果。ライブスキル・思い出・審査員リアクション由来だけ（パッシブ由来は出さない＝左下のパッシブ枠で見る）:
 //   属性バフ/デバフ（unit.debuffs のうち src≠'passive' の期限内）・名前付き状態効果（a.statuses のうち passive≠true の有効中。使用済み 'used' のリザレクションは出ない）・注目度UP/DOWN（'attn'）。
@@ -2301,9 +2474,9 @@ SC.unitEffectList = function (unit) {
   }
   return list;
 };
-// 審査員に付いている効果（実装済みのもの）: 興味UP/DOWN（judge.interests。倍率の総乗は SC.interestMult）・影響力UP/DOWN（judge.influencePct。加算・期限なし）・魅了（charmUntil）・
-//   このターンのリアクション強化（4の倍数ターン。SC.CONFIG.audition.judge.reactEvery）／応援（No.1特殊ルールの偶数ターン）。judgeReaction と同じ判定（魅了中はリアクションしないので強化・応援は出さない）。
-//   熱狂などゲームに無い効果は出さない。※興味UP/DOWN・影響力は現状ゲーム内に付与する処理が無く（効果文の「興味0.5倍[2ターン]」等は未パース）、データ上に入った時だけ出る
+// 審査員に付いている効果（実装済みのもの）: 興味UP/DOWN（judge.interests。倍率の総乗は SC.interestMult）・興味反転・興味限定（v0.25.52）・影響力UP/DOWN（judge.influencePct。加算・期限なし）・
+//   魅了（judge.charms。v0.25.52: 自分のアピール+20%・興味DOWN無効）・このターンのリアクション強化（4の倍数ターン。SC.CONFIG.audition.judge.reactEvery）／応援（No.1特殊ルールの偶数ターン）。
+//   興味の効果が1つでもあれば、反転込みの最終倍率（SC.interestFinalMult。ライバルにもこの倍率が掛かる）を1行足す。熱狂などゲームに無い効果は出さない
 SC.judgeEffectList = function (judge) {
   const a = SC.state && SC.state.audition;
   if (!a || !judge) return [];
@@ -2313,13 +2486,26 @@ SC.judgeEffectList = function (judge) {
     if (!(ef.until >= a.turn) || !isFinite(ef.mult) || ef.mult === 1) return;
     list.push({ kind: 'interest', label: ef.mult > 1 ? '興味UP' : '興味DOWN', value: '×' + Number(ef.mult.toFixed(3)), turnsLeft: SC._effTurnsLeft(ef.until), src: ef.src || '', tone: ef.mult > 1 ? 'good' : 'bad' });
   });
+  SC._judgeEffActive(judge.interestFlips).forEach(function (ef) {
+    list.push({ kind: 'interest', label: '興味反転', value: '2 − 総積（下限×' + SC.CONFIG.audition.interest.flipFloor + '）', turnsLeft: SC._effTurnsLeft(ef.until), src: ef.src || '', tone: 'neutral' });
+  });
+  SC._judgeEffActive(judge.interestLimits).forEach(function (ef) {
+    list.push({ kind: 'interest', label: '興味限定', value: (AL[judge.attr] || judge.attr) + 'のアピールだけ有効', turnsLeft: SC._effTurnsLeft(ef.until), src: ef.src || '', tone: 'neutral' });
+  });
+  if (list.length > 0) {
+    const fm = SC.interestFinalMult(judge, false);
+    list.push({ kind: 'interest', label: '興味（最終）', value: '×' + Number(fm.toFixed(3)), turnsLeft: null, turnsText: '上の効果を合わせた今の倍率（反転込み・ライバルにも有効）', src: '', tone: fm > 1 ? 'good' : (fm < 1 ? 'bad' : 'neutral') });
+  }
   if (isFinite(judge.influencePct) && judge.influencePct !== 0) {
     list.push({ kind: 'influence', label: judge.influencePct > 0 ? '影響力UP' : '影響力DOWN', value: SC._effSigned(judge.influencePct), turnsLeft: SC._effTurnsLeft(judge.influenceUntil), src: '', tone: judge.influencePct > 0 ? 'bad' : 'good' });
   }
-  const charmed = judge.charmUntil !== undefined && judge.charmUntil >= a.turn;
-  if (charmed) {
-    list.push({ kind: 'charm', label: '魅了', value: 'リアクション停止', turnsLeft: SC._effTurnsLeft(judge.charmUntil), src: '', tone: 'good' });
-  } else if (!judge.gone && a.def) {
+  SC._judgeEffActive(judge.charms).forEach(function (ef) {
+    list.push({ kind: 'charm', label: '魅了', value: '自分のアピール+' + SC.CONFIG.audition.charm.pct + '%・興味DOWN無効', turnsLeft: SC._effTurnsLeft(ef.until), src: ef.src || '', tone: 'good' });
+  });
+  if (judge.charmUntil !== undefined && judge.charmUntil >= a.turn) {   // 旧セーブの魅了（1個扱い）
+    list.push({ kind: 'charm', label: '魅了', value: '自分のアピール+' + SC.CONFIG.audition.charm.pct + '%・興味DOWN無効', turnsLeft: SC._effTurnsLeft(judge.charmUntil), src: '', tone: 'good' });
+  }
+  if (!judge.gone && a.def) {
     const J = SC.CONFIG.audition.judge;
     if (a.def.special === 'no1' && a.turn % 2 === 0) {
       list.push({ kind: 'react', label: '応援', value: (AL[judge.attr] || judge.attr) + ' +100%[' + J.reactDebuffTurns + 'T]', turnsLeft: 1, src: 'このターンのリアクション', tone: 'good' });
