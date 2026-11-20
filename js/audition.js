@@ -864,8 +864,10 @@ SC.planRivals = function () {
   const a = SC.state.audition;
   const A = SC.CONFIG.audition;
   const def = a.def;
-  const dist = (def.season === 'semi' || def.season === 'final')
-    ? A.rivalJudgeFinals : A.rivalJudgeBySeason[def.season];
+  // v0.25.53: 1ターン目はオーディション別・難易度別の実測値（def.rivalJudgeT1[mode]）があればそれを使う。無ければ従来のシーズン別 [推測]
+  const t1 = (a.turn === 1 && def.rivalJudgeT1) ? def.rivalJudgeT1[a.mode] : null;
+  const dist = t1 || ((def.season === 'semi' || def.season === 'final')
+    ? A.rivalJudgeFinals : A.rivalJudgeBySeason[def.season]);
 
   a.units.forEach(function (u) {
     if (u.isPlayer || u.out) return;
@@ -2529,6 +2531,25 @@ SC.checkBattleEnd = function () {
   return false;
 };
 
+// v0.25.54: オーディションマスタリー（サポートスキル「オーディションマスタリーSP/Me/Vo/Da/Vi」＝raw「オーディションで1位を取ると◯◯+<Lv*N>」）の合計。
+//   確率発動ではなく固定値（スキルレベル＝上昇値。ユーザー確認 2026-11-14）。<Lv*N> の Lv はカードの maxLv（v0.25.55 から全サポートスキルに入っている。無い時だけレアリティ既定 UR=15/SSR=10/SR=7/R=4）。
+//   pool=サポ＋ゲストの配列（各要素 { rarity, supportSkills }。既定=SC.SUPPORTS＋SC.GUEST）。finishAudition（1位通過時）と 230万のステ成長（SC.sim230StatPlan）で共用
+SC.auditionMasteryGain = function (pool) {
+  const g = { sp: 0, me: 0, vo: 0, da: 0, vi: 0 };
+  if (!SC.parseSupportSkillValue) return g;
+  const list = pool || SC.SUPPORTS.concat(SC.GUEST ? [SC.GUEST] : []);
+  list.forEach(function (sup) {
+    if (!sup || !sup.supportSkills) return;
+    sup.supportSkills.forEach(function (sk) {
+      const m = sk.name && sk.name.match(/^オーディションマスタリー(SP|Me|Vo|Da|Vi)$/);   // 種別限定（ユニット/レッスン系マスタリーは別トリガー）
+      if (!m) return;
+      const v = Number(SC.parseSupportSkillValue(sk.raw, sup.rarity, sk.maxLv || null));
+      if (isFinite(v)) g[m[1].toLowerCase()] += v;   // NaNガード
+    });
+  });
+  return g;
+};
+
 // reason: 'complete' | 'mentalBreak' | 'lastStanding'
 SC.finishAudition = function (reason) {
   const a = SC.state.audition;
@@ -2554,20 +2575,10 @@ SC.finishAudition = function (reason) {
   if (reason === 'lastStanding') rank = 1;
   const passed = reason !== 'mentalBreak' && rank <= a.passRank;
 
-  // ---- オーディションマスタリー（1位通過時・全サポ+ゲストを加算）[仮データ] ----
-  // raw「オーディションで1位を取ると◯◯+<Lv*N>」。v0.25.17: SPに加えMe/Vo/Da/Viにも対応
-  // rawの <Lv*N> はレアリティ別MAX（UR=15/SSR=10/SR=7/R=4）で計算
-  const audMastery = { sp: 0, me: 0, vo: 0, da: 0, vi: 0 };
-  if (rank === 1 && passed && SC.parseSupportSkillValue) {
-    const pool = SC.SUPPORTS.concat(SC.GUEST ? [SC.GUEST] : []);
-    pool.forEach(function (sup) {
-      if (!sup || !sup.supportSkills) return;
-      sup.supportSkills.forEach(function (sk) {
-        const m = sk.name && sk.name.match(/^オーディションマスタリー(SP|Me|Vo|Da|Vi)$/);   // 種別限定（ユニット/レッスン系マスタリーは別トリガー）
-        if (!m) return;
-        audMastery[m[1].toLowerCase()] += SC.parseSupportSkillValue(sk.raw, sup.rarity, sk.maxLv || null);
-      });
-    });
+  // ---- オーディションマスタリー（1位通過時・全サポ+ゲストを加算）----
+  // v0.25.54: 合計の計算を SC.auditionMasteryGain に分離（230万のステ成長 SC.sim230StatPlan と共用）
+  const audMastery = (rank === 1 && passed) ? SC.auditionMasteryGain() : { sp: 0, me: 0, vo: 0, da: 0, vi: 0 };
+  if (rank === 1 && passed) {
     if (audMastery.sp > 0) st.sp += audMastery.sp;
     if (audMastery.me > 0) SC.addStat('me', audMastery.me);
     ['vo', 'da', 'vi'].forEach(function (at) { if (audMastery[at] > 0) SC.addStat(at, audMastery[at]); });

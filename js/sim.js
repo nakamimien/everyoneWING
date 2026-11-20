@@ -1298,12 +1298,68 @@ SC.sim230Weeks = function () {
   });
 };
 // 230万の入力キー（1〆のキーから 週・オーデ・流行 を除いたもの。ターン・判定・選択札・LINK成立扱い・発動中パッシブも含めない）
+//   v0.25.54: 週の代わりに「ステ成長の起点」（SC.sim230AnchorIndex）を含める＝起点が同じ週どうし（S1〜S2残り2週・準決勝と決勝）なら再計算しない
 SC.sim230Key = function (inp) {
   const buffPart = inp.buffMode === 'manual' ? inp.buff : Object.keys(inp.passiveOwned || {}).sort();
-  return JSON.stringify([inp.loadout, inp.stats, inp.ex, inp.mode, inp.memLv, inp.buffMode, buffPart, inp.pSkillKeys, SC.SIM_ONESHOT_JUDGEMENT]);
+  return JSON.stringify([inp.loadout, inp.stats, inp.ex, inp.mode, inp.memLv, inp.buffMode, buffPart, inp.pSkillKeys, SC.SIM_ONESHOT_JUDGEMENT, SC.sim230AnchorIndex(inp)]);
 };
-// 230万は Pアイドルが選ばれていれば計算できる（週は使わない。1〆の SC.simReady は週も必須なので別判定）
-SC.sim230Ready = function (inp) { return !!(inp && inp.loadout && inp.loadout.p); };
+// v0.25.54: 230万も 1〆 と同じく Pアイドルと週が選ばれてから計算する（ユーザー指定「週を選択してから計算開始・1〆と同タイミング」。週＝ステ成長の起点）
+//   （旧 v0.25.37〜53: P だけで計算＝全週同じステ）
+SC.sim230Ready = function (inp) { return SC.simReady(inp); };
+// v0.25.54: ステ成長の起点＝入力の週より前にある230万の週の数（0..17）。入力のステは「その番号の週のオーデを受ける前のステ」とみなす。
+//   ルート内の週=その週の位置／ルートより前（S1・S2残り8〜2週）=0（S2残り1週のステとして先へ足す）／準決勝・決勝=17（最終週の後のステとして全17戦ぶん引く）。週未選択・不正=null
+SC.sim230AnchorIndex = function (inp) {
+  const wk = inp && inp.weekKey;
+  if (!wk) return null;
+  const weeks = SC.sim230Weeks();
+  if (wk === 'semi' || wk === 'final') return weeks.length;
+  const opts = SC.simWeekOptions();
+  const num = function (key) { const o = opts.filter(function (x) { return x.key === key; })[0]; return (o && isFinite(o.week)) ? o.week : null; };
+  const w0 = num(wk);
+  if (w0 === null) return null;
+  return weeks.filter(function (w) { return num(w.weekKey) < w0; }).length;
+};
+// v0.25.54: オーディションマスタリーの対象（編成のサポ4枠＋ゲスト）を、編成のカードから SC.applyLoadout と同じ形 { rarity, supportSkills } で作る（表示用の SC.SUPPORTS には触らない）
+SC.sim230MasteryPool = function (loadout) {
+  const lo = loadout || {};
+  return (lo.supports || []).concat([lo.guest]).map(function (id) {
+    const c = id ? SC.findCard(id) : null;
+    return (c && c.type === 'S') ? { rarity: c.rarity || 'SSR', supportSkills: c.supportSkills || [] } : null;
+  });
+};
+// v0.25.54: 230万の各週のステ（ユーザー指定 2026-11-14「設定している週とステータスから逆算」）。
+//   毎週1位合格の前提（ユーザー指定「1位前提で計算していい」）で、オーデ1戦ごとに
+//     Vo/Da/Vi それぞれ +statReward の期待値（2つ+base・ランダムな1つ+2倍値＝(2×base+2倍値)/3。2倍になる属性は流行と無関係なランダム＝動画で確認 2026-11-14）
+//     ＋オーディションマスタリー（固定値。Me も。SC.auditionMasteryGain）
+//   を、起点（SC.sim230AnchorIndex）より後の週は足し、前の週は引く。上限は考えない（ユーザー指定「上限は度外視」）。
+//   サポートコミュ等によるステ上昇は含めない（編成・発生状況で毎回違う。ユーザー指定。UIに注記）。週ごとに四捨五入、下限 Vo/Da/Vi 0・Me 1（NaNガード込み）
+//   戻り値 { anchor, mastery, gains: [週ごとの1戦の増分], weeks: [{ weekKey, auditionId, stats: {vo,da,vi,me} }]（SC.sim230Weeks と同じ並び） }
+SC.sim230StatPlan = function (inp) {
+  const weeks = SC.sim230Weeks();
+  const a = SC.sim230AnchorIndex(inp);
+  const ms = SC.auditionMasteryGain(SC.sim230MasteryPool(inp && inp.loadout));
+  const gains = weeks.map(function (w) {
+    const def = SC.AUDITIONS.filter(function (x) { return x.id === w.auditionId; })[0] || {};
+    const b = Number(def.statReward) || 0;
+    const ev = (2 * b + (Number(def.statRewardDouble) || b * 2)) / 3;
+    return { vo: ev + ms.vo, da: ev + ms.da, vi: ev + ms.vi, me: ms.me };
+  });
+  const src = (inp && inp.stats) || {};
+  const out = weeks.map(function (w, k) {
+    const s = {};
+    ['vo', 'da', 'vi', 'me'].forEach(function (at) {
+      let v = Number(src[at]);
+      if (!isFinite(v)) v = 0;
+      if (a !== null) {
+        if (k >= a) { for (let j = a; j < k; j++) v += gains[j][at]; }
+        else { for (let j = k; j < a; j++) v -= gains[j][at]; }
+      }
+      s[at] = Math.max(at === 'me' ? 1 : 0, Math.round(v));
+    });
+    return { weekKey: w.weekKey, auditionId: w.auditionId, stats: s };
+  });
+  return { anchor: a, mastery: ms, gains: gains, weeks: out };
+};
 // v0.25.40: 計算するセルの総数（17週×6流行=102。UIの進捗表示「計算中 n/102」と実行器の total が使う）
 SC.sim230Total = function () { return SC.sim230Weeks().length * SC.TREND_PATTERNS.length; };
 // 実行器: 102セル（週順×流行順）を1つずつ SC.simOneShotStart/Step で回す。r.p = { 週キー: [流行0..5 の成功率] }
@@ -1311,7 +1367,8 @@ SC.sim230Start = function (inp, trials) {
   const n = Math.max(1, Math.round(Number(trials) || SC.SIM230_TRIALS));
   const r = { trials: n, weekList: SC.sim230Weeks(), total: SC.sim230Total(), idx: 0, run: null, p: {}, done: false, cancelled: false, ms: 0, res: null };
   r.inp = SC.simSanitize(JSON.parse(JSON.stringify(inp)));   // 呼び出し元の入力は書き換えない
-  if (!SC.sim230Ready(r.inp)) { r.done = true; r.res = { empty: true }; }
+  if (!SC.sim230Ready(r.inp)) { r.done = true; r.res = { empty: true }; return r; }
+  r.plan = SC.sim230StatPlan(r.inp);   // v0.25.54: 週ごとのステ（起点の週から逆算）
   return r;
 };
 // count 試行ぶん進める（セルの境目をまたいでよい）。完了したら true（結果は r.res）
@@ -1325,6 +1382,7 @@ SC.sim230Step = function (r, count) {
     if (!r.run) {
       const ci = JSON.parse(JSON.stringify(r.inp));
       ci.weekKey = wk.weekKey; ci.auditionId = wk.auditionId; ci.trend = tr;   // v0.25.40: 週ごとの実際の週キー（経過週Wが違えば支援ステの係数も違う）
+      ci.stats = r.plan.weeks[Math.floor(r.idx / T)].stats;                    // v0.25.54: その週のステ（ステ成長込み）
       // 乱数番号はセルごとに重ならない範囲（r.idx × 試行数〜）。全セルが同じ番号列（共通乱数）だと、少ない試行数の標本誤差が102セルで同じ向きに揃って
       //   17戦の合計が大きくずれる（70試行で最大±1/17）→ セル間は独立にして誤差を平均で打ち消す。入力（編成・ステ等）には依存しない＝決定論的
       r.run = SC.simOneShotStart(ci, r.trials, { seedBase: r.idx * r.trials });
@@ -1395,7 +1453,7 @@ SC.sim230 = function (inp, trials) {
 // キー: 版 | 種別 | ハッシュ2本＋文字数（入力キー文字列＋'#'＋試行数）。2本の32bitハッシュ＋長さで衝突は実質起きない（照合も同じ id 文字列）
 // 容量: 種別ごとに LRU の件数上限（1〆 200・230万 100）。QuotaExceeded 等の書き込み失敗は握りつぶし、古い順に削って再試行→それでも駄目ならメモリ上だけで動く（例外は外に出さない）。
 //   localStorage が使えない環境（プライベートモード・node）でもメモリ上のキャッシュだけで動く
-SC.SIM_CALC_VER = '0.25.52';   // v0.25.52: 興味操作（興味N倍・反転・限定・興味無視）をライバル込みで計算・魅了を wiki の仕様（自分+20%・興味DOWN無効。リアクション停止は撤去）・「必ず最初/最後に」の行動順が実カードで効くように。(旧 v0.25.48: カードMDの追加で cards.js を再生成（新カード10枚）。(旧 v0.25.47: シミュをハイテンション固定（思い出ゲージ初期70%）・1〆の候補から全審査員に届かない単体札を除外（審査員別満足率の内訳が変わる）。(旧 v0.25.44: PLUS等の条件節 [〜場合] を札の使用前の状態で評価（使用者本人の履歴条件は札自身で成立しない）＝PLUSが従来より成立しにくくなり1〆・230万が変わる。(旧 v0.25.43: 注目度UP/DOWNを[Nターン]どおりに切れる状態効果に（パッシブの注目度は発動ターンのみ・ライブスキルの注目度UPも付与）＝ライバルの狙い方・注目度条件・[注目度が高い/低いほど効果UP]の結果が変わる。(旧 v0.25.42: 1ターンのパッシブ発動上限を6個（P-UR編成のみ8個）に。思い出ゲージ/注目度パッシブも発動数に数える)))))
+SC.SIM_CALC_VER = '0.25.55';   // v0.25.55: サポートスキルの最大Lvを「最大」列の無い表からも読む（cards.js 再生成。3,100件の maxLv が既定値から実値に＝オーディションマスタリー・絆・レッスンのマスタリーが変わる）。(旧 v0.25.54: 230万を週ごとのステ（起点の週から1位合格の報酬とオーディションマスタリーで逆算）で計算・キーに起点を追加・歌姫ミドル1ターン目のライバル判定を 40/50/10 に。(旧 v0.25.53:歌姫楽宴ミドルの1ターン目のライバル判定を実測値に（1〆・230万の歌姫の週が変わる）。(旧 v0.25.52: 興味操作（興味N倍・反転・限定・興味無視）をライバル込みで計算・魅了を wiki の仕様（自分+20%・興味DOWN無効。リアクション停止は撤去）・「必ず最初/最後に」の行動順が実カードで効くように。(旧 v0.25.48: カードMDの追加で cards.js を再生成（新カード10枚）。(旧 v0.25.47: シミュをハイテンション固定（思い出ゲージ初期70%）・1〆の候補から全審査員に届かない単体札を除外（審査員別満足率の内訳が変わる）。(旧 v0.25.44: PLUS等の条件節 [〜場合] を札の使用前の状態で評価（使用者本人の履歴条件は札自身で成立しない）＝PLUSが従来より成立しにくくなり1〆・230万が変わる。(旧 v0.25.43: 注目度UP/DOWNを[Nターン]どおりに切れる状態効果に（パッシブの注目度は発動ターンのみ・ライブスキルの注目度UPも付与）＝ライバルの狙い方・注目度条件・[注目度が高い/低いほど効果UP]の結果が変わる。(旧 v0.25.42: 1ターンのパッシブ発動上限を6個（P-UR編成のみ8個）に。思い出ゲージ/注目度パッシブも発動数に数える))))))))
 SC.SIM_CACHE_KEY = 'sc_sim_cache_v1';
 SC.SIM_CACHE_MAX = { os: 200, s230: 100 };
 SC._simCacheMem = null;     // { os: [エントリ…古い→新しい], s230: [...], dirty }。エントリ = { id, v, t, r }

@@ -3210,6 +3210,13 @@ hr { border: none; border-top: 1px dashed #ccc; margin: 10px 0; }
 .sim-s230-main { font-size: 18px; font-weight: 900; line-height: 1.35; color: #fff; font-variant-numeric: tabular-nums; }   /* v0.25.38: 「1〆 期待 8.9/17（52.4%）」だけ。オーデ別内訳(.sim-s230-aud)は撤去 */
 .sim-s230-main b { font-size: 24px; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.5); }
 .sim-s230-calc { font-size: 14px; font-weight: bold; color: rgba(255,255,255,.85); padding: 2px 0; animation: simOsPulse 1.2s ease-in-out infinite; }
+/* v0.25.54: 230万の未選択（1〆の .sim-os-dash より小さく）・ステ成長込みの行（最初→最後の週。週ごとは title）・注記 */
+.sim-s230-dash { font-size: 22px; text-align: center; padding: 2px 0; color: rgba(255,255,255,.7); }
+.sim-s230-grow { margin-top: 4px; font-size: 12px; line-height: 1.4; color: rgba(255,255,255,.92); cursor: help; }
+.sim-s230-grow-h { font-weight: bold; color: #ffd9a0; }
+.sim-s230-grow-v { display: flex; flex-wrap: wrap; column-gap: 8px; font-weight: bold; font-variant-numeric: tabular-nums; }
+.sim-s230-grow-v span { white-space: nowrap; }
+.sim-s230-note { font-size: 11px; line-height: 1.35; color: rgba(255,255,255,.7); margin-top: 1px; }
 .sim-btn-xs { font-size: 10.5px; padding: 1px 8px; border-radius: 9px; margin-left: 3px; }
 .sim-btn-del { background: linear-gradient(135deg, #b0b0b8, #8a8a94); }
 /* v0.25.39: 編成欄のサポート入れ替えボタン「⇅」（各サポのEX行の左端＝上下2枠の境目。ラベル幅74px内に収める） */

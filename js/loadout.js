@@ -200,7 +200,7 @@ SC.applyLoadout = function (loadout) {
       if (card.supportSkills) {
         card.supportSkills.forEach(function (sk) {
           if (sk.name && sk.name.indexOf('アイドルの絆') >= 0 && SC.parseSupportSkillValue) {
-            // レアリティ別Lv MAXで計算（UR=15/SSR=10/SR=7/R=4）、maxLvが取得できていれば優先
+            // Lv はカードの maxLv（v0.25.55 から全サポートスキルに入っている）。無い時だけレアリティ別の既定（UR=15/SSR=10/SR=7/R=4）
             kizunaBonus += SC.parseSupportSkillValue(sk.raw, card.rarity, sk.maxLv || null);
           }
         });

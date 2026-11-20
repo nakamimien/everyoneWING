@@ -1,5 +1,5 @@
 // シャニマスWING カードデータ（自動生成）
-// 生成日時: 2026/10/31 17:52:33
+// 生成日時: 2026/11/18 0:42:58
 // 生成モード: slim（levels配列なし / node tools/convert_cards.js（--fullでlevels込み））
 // 総カード数: 1426（P:523 / S:903）
 // レア内訳: SSR:940 / SR:443 / R:29 / UR:14
@@ -6410,17 +6410,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+5",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -6592,22 +6592,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -6825,27 +6825,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -7107,27 +7107,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -7389,27 +7389,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -7669,27 +7669,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -7947,27 +7947,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -8228,42 +8228,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -8530,27 +8530,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -8774,27 +8774,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -9013,27 +9013,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVo",
         "raw": "一緒にビジュアルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "ボーカルマスタリーVi",
         "raw": "一緒にボーカルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -9301,27 +9301,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -9540,32 +9540,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -9832,37 +9832,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVo",
         "raw": "一緒にビジュアルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -10125,42 +10125,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーVo",
         "raw": "一緒にダンスレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーVi",
         "raw": "一緒にダンスレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -10417,42 +10417,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリーVo",
         "raw": "一緒にビジュアルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアルマスタリーDa",
         "raw": "一緒にビジュアルレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       }
     ],
     "panels": [
@@ -10710,27 +10710,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -10947,37 +10947,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -11250,27 +11250,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -11487,27 +11487,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -12581,27 +12581,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -12818,27 +12818,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -13053,27 +13053,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -13288,27 +13288,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -13807,27 +13807,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -14907,27 +14907,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -15736,27 +15736,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -16846,37 +16846,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -23966,17 +23966,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -24148,27 +24148,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -24386,27 +24386,27 @@ SC.CARDS = {
       {
         "name": "ラジオマスタリーSP",
         "raw": "一緒にラジオへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -24623,27 +24623,27 @@ SC.CARDS = {
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -24905,27 +24905,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -25143,27 +25143,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "テンションマスタリーVi",
         "raw": "テンション最高時に一緒に行動すると確率でVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -25423,27 +25423,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -25704,27 +25704,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -25949,42 +25949,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トークマスタリー体力",
         "raw": "一緒にトークイベントへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -26250,27 +26250,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -26489,27 +26489,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーVi",
         "raw": "一緒にダンスレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "ビジュアルマスタリーDa",
         "raw": "一緒にビジュアルレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -26779,37 +26779,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーVi",
         "raw": "一緒にダンスレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -27072,27 +27072,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリーMe",
         "raw": "一緒にボーカルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -27309,37 +27309,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "テンションマスタリーSP＋",
         "raw": "テンション最高時に一緒に行動するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -27601,32 +27601,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -27877,37 +27877,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トークマスタリーSP",
         "raw": "一緒にトークイベントへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -28168,27 +28168,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -28692,27 +28692,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -28929,27 +28929,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -29685,32 +29685,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -30200,27 +30200,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -31017,27 +31017,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -31548,27 +31548,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -31791,27 +31791,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -32579,27 +32579,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -33974,27 +33974,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -41033,17 +41033,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -41215,27 +41215,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -41453,22 +41453,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -41685,22 +41685,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -41962,27 +41962,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "テンションマスタリーDa",
         "raw": "テンション最高時に一緒に行動すると確率でDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -42244,27 +42244,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -42489,42 +42489,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "オーディションマスタリーMe",
         "raw": "オーディションで1位を取るとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トークマスタリー体力",
         "raw": "一緒にトークイベントへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -42790,22 +42790,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "オーディションマスタリーVi",
         "raw": "オーディションで1位を取るとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -43023,27 +43023,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ボーカルマスタリーDa",
         "raw": "一緒にボーカルレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "ダンスマスタリーVo",
         "raw": "一緒にダンスレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -43313,32 +43313,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -43605,32 +43605,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -43895,32 +43895,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "オーディションマスタリーMe",
         "raw": "オーディションで1位を取るとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -44180,27 +44180,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -44419,32 +44419,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -44707,42 +44707,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーVo",
         "raw": "一緒にダンスレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ダンスマスタリーVi",
         "raw": "一緒にダンスレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       }
     ],
     "panels": [
@@ -45001,32 +45001,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -45287,37 +45287,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -45538,27 +45538,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -46101,37 +46101,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -46392,27 +46392,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -46627,27 +46627,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -47376,27 +47376,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -48476,27 +48476,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -48719,27 +48719,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -50119,27 +50119,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -50928,27 +50928,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -51165,27 +51165,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -57551,17 +57551,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -57733,27 +57733,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -57997,22 +57997,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -58272,27 +58272,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーVi",
         "raw": "一緒にラジオへ出演するとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -58509,27 +58509,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -58781,27 +58781,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "ボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -59017,22 +59017,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーMe",
         "raw": "一緒にトークショーへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -59292,27 +59292,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ラジオマスタリーDa",
         "raw": "一緒にラジオへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -59529,27 +59529,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -59766,37 +59766,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -60053,32 +60053,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -60335,27 +60335,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -60615,37 +60615,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "テンションマスタリーMe＋",
         "raw": "テンション最高時に一緒に行動するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -60903,27 +60903,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -61140,27 +61140,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーMe",
         "raw": "一緒にボーカルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -61379,42 +61379,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -61678,27 +61678,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -62488,27 +62488,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -63248,32 +63248,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -63816,27 +63816,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -64347,27 +64347,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -64590,27 +64590,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -65093,27 +65093,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -65938,27 +65938,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -79804,7 +79804,7 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
@@ -87310,17 +87310,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -87492,27 +87492,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -87770,27 +87770,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーSP",
         "raw": "一緒にトークショーへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -88048,27 +88048,27 @@ SC.CARDS = {
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -88280,27 +88280,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーDa",
         "raw": "テンション最高時に一緒に行動すると確率でDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -88517,22 +88517,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -88749,27 +88749,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -89021,27 +89021,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -89302,32 +89302,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "撮影マスタリーVi上限",
         "raw": "一緒に雑誌の撮影をするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -89584,27 +89584,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "撮影マスタリー体力",
         "raw": "一緒に雑誌の撮影をすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -89862,32 +89862,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -90143,27 +90143,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -90380,32 +90380,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -90663,27 +90663,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -90942,37 +90942,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -91232,27 +91232,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -91469,37 +91469,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVi上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -92279,27 +92279,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -92514,27 +92514,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -92749,27 +92749,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -93562,27 +93562,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -94094,27 +94094,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -94667,27 +94667,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -95187,27 +95187,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -95709,27 +95709,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -96219,37 +96219,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -102749,17 +102749,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -102933,22 +102933,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -103208,22 +103208,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -103440,27 +103440,27 @@ SC.CARDS = {
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -103677,27 +103677,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリーVi",
         "raw": "一緒にラジオへ出演するとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -103957,22 +103957,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トークマスタリーDa",
         "raw": "一緒にトークショーへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -104189,27 +104189,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トークマスタリーSP",
         "raw": "一緒にトークイベントへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トークマスタリー体力",
         "raw": "一緒にトークイベントへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -104463,27 +104463,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -104742,27 +104742,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -105022,32 +105022,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -105305,27 +105305,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -105586,42 +105586,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       }
     ],
     "panels": [
@@ -105899,27 +105899,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -106137,37 +106137,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -106386,27 +106386,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -106665,27 +106665,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -106905,42 +106905,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -107201,27 +107201,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -107720,27 +107720,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -108239,27 +108239,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -108770,27 +108770,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -109015,42 +109015,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーMe",
         "raw": "一緒にボーカルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -109305,27 +109305,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -110116,27 +110116,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -117181,17 +117181,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -117363,27 +117363,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -117590,52 +117590,52 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -117852,27 +117852,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -118128,27 +118128,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -118404,27 +118404,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -118641,27 +118641,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -118922,27 +118922,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -119202,27 +119202,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーVo",
         "raw": "一緒にダンスレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -119441,42 +119441,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -119734,42 +119734,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ラジオマスタリーSP",
         "raw": "一緒にラジオへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "撮影マスタリーSP",
         "raw": "一緒に雑誌の撮影をするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -120026,32 +120026,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -120306,27 +120306,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -120584,27 +120584,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -120823,37 +120823,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーDa上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -121112,27 +121112,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -121347,37 +121347,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -121920,42 +121920,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -122228,27 +122228,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -122700,27 +122700,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -123505,27 +123505,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -124329,27 +124329,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -124572,27 +124572,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -126511,27 +126511,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -126748,32 +126748,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -133825,17 +133825,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トークマスタリーDa",
         "raw": "一緒にトークショーへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -134249,27 +134249,27 @@ SC.CARDS = {
       {
         "name": "テンションマスタリーVi",
         "raw": "テンション最高時に一緒に行動すると確率でVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -134529,27 +134529,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -134767,22 +134767,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -135000,27 +135000,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーMe",
         "raw": "一緒にボーカルレッスンするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -135279,22 +135279,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -135512,27 +135512,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -135792,27 +135792,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -136072,42 +136072,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -136386,27 +136386,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -136626,42 +136626,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -136924,27 +136924,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -137161,37 +137161,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -137753,37 +137753,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -138043,27 +138043,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -138849,32 +138849,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーDa上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -139422,27 +139422,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -139659,42 +139659,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "テンションマスタリーVi上限＋",
         "raw": "テンション最高時に一緒に行動するとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -140242,27 +140242,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -140485,27 +140485,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -141281,27 +141281,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -148320,17 +148320,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -148502,27 +148502,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -148739,22 +148739,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "テンションマスタリーVi",
         "raw": "テンション最高時に一緒に行動すると確率でVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 11
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -149256,27 +149256,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -149536,22 +149536,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -149768,27 +149768,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -150006,27 +150006,27 @@ SC.CARDS = {
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -150283,37 +150283,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -150589,27 +150589,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -150827,27 +150827,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -151107,37 +151107,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -151398,27 +151398,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -151635,37 +151635,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "テンションマスタリーSP＋",
         "raw": "テンション最高時に一緒に行動するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -151928,27 +151928,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -152206,37 +152206,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーDa上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -152777,27 +152777,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -153014,27 +153014,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -153249,27 +153249,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -153484,32 +153484,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -153768,27 +153768,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -154577,27 +154577,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -154814,27 +154814,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -155049,27 +155049,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -155327,27 +155327,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -155856,27 +155856,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -156386,27 +156386,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -157218,27 +157218,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -163681,17 +163681,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -163863,22 +163863,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -164095,22 +164095,22 @@ SC.CARDS = {
       {
         "name": "テンションマスタリーVo",
         "raw": "テンション最高時に一緒に行動すると確率でVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -164370,22 +164370,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -164603,22 +164603,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーDa",
         "raw": "ラジオに出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -164835,27 +164835,27 @@ SC.CARDS = {
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       }
     ],
     "panels": [
@@ -165114,27 +165114,27 @@ SC.CARDS = {
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -165396,27 +165396,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーVi",
         "raw": "一緒にトークイベントへ出演するとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -165676,32 +165676,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -165959,22 +165959,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -166192,37 +166192,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -166480,27 +166480,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -166758,37 +166758,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVi上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -167049,27 +167049,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -167287,37 +167287,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -167865,27 +167865,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -168403,27 +168403,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -168638,27 +168638,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -169436,27 +169436,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -169967,27 +169967,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -170210,27 +170210,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -171026,27 +171026,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -171263,27 +171263,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -178516,17 +178516,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -178698,22 +178698,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "テンションマスタリーMe",
         "raw": "テンション最高時に一緒に行動すると確率でメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -178965,27 +178965,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -179203,27 +179203,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "オーディションマスタリーVo",
         "raw": "オーディションで1位を取るとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -179479,22 +179479,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "ダンスレッスンするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -179707,27 +179707,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -179984,27 +179984,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -180224,27 +180224,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーDa",
         "raw": "一緒にトークイベントへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -180504,27 +180504,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -180784,32 +180784,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -181088,32 +181088,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "オーディションマスタリーMe",
         "raw": "オーディションで1位を取るとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -181368,37 +181368,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "テンションマスタリーSP＋",
         "raw": "テンション最高時に一緒に行動するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -181656,27 +181656,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -181891,37 +181891,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -182181,27 +182181,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -182709,27 +182709,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -183230,27 +183230,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -183468,27 +183468,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -183992,27 +183992,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -184230,27 +184230,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -185045,27 +185045,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -185574,27 +185574,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -185817,27 +185817,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -186621,27 +186621,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -186902,42 +186902,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 20
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -193698,17 +193698,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -193882,27 +193882,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -194160,27 +194160,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -194440,22 +194440,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -194673,27 +194673,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -194953,27 +194953,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -195190,27 +195190,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリーSP",
         "raw": "一緒にラジオへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -195467,27 +195467,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ラジオマスタリーSP",
         "raw": "一緒にラジオへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -195704,27 +195704,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -195941,32 +195941,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -196226,37 +196226,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -196509,27 +196509,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -196790,37 +196790,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ラジオマスタリーVi",
         "raw": "一緒にラジオへ出演するとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーVi",
         "raw": "一緒にトークイベントへ出演するとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -197081,27 +197081,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -197318,37 +197318,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -197628,27 +197628,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -197865,27 +197865,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -198104,42 +198104,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -198686,27 +198686,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -198964,27 +198964,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -199202,27 +199202,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -199437,27 +199437,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -199958,27 +199958,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -200487,27 +200487,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -201311,42 +201311,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -201604,27 +201604,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -202386,27 +202386,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -202623,37 +202623,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -209403,17 +209403,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -209585,27 +209585,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -209822,27 +209822,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トークマスタリーDa",
         "raw": "一緒にトークショーへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -210102,27 +210102,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -210335,27 +210335,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "撮影マスタリーDa",
         "raw": "一緒に雑誌の撮影をするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "撮影マスタリー体力",
         "raw": "一緒に雑誌の撮影をすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -210618,27 +210618,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -210898,22 +210898,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "オーディションマスタリーVi",
         "raw": "オーディションで1位を取るとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -211167,27 +211167,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -211400,27 +211400,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -211682,32 +211682,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -211961,27 +211961,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -212243,42 +212243,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリーSP",
         "raw": "一緒にラジオへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーSP",
         "raw": "一緒にトークショーへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -212534,37 +212534,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -212824,27 +212824,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -213061,37 +213061,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -213352,27 +213352,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -213589,27 +213589,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -214110,32 +214110,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -214392,42 +214392,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -214978,27 +214978,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -215509,27 +215509,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -215746,27 +215746,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -216558,27 +216558,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -216801,27 +216801,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -218215,27 +218215,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -225135,17 +225135,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+5",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -225317,22 +225317,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -225585,27 +225585,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -225861,27 +225861,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーVi",
         "raw": "テンション最高時に一緒に行動すると確率でVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -226094,32 +226094,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "撮影マスタリーVo",
         "raw": "一緒に雑誌の撮影をするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "撮影マスタリーSP",
         "raw": "一緒に雑誌の撮影をするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 13
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -226380,27 +226380,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -226617,22 +226617,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "オーディションマスタリーDa",
         "raw": "オーディションで1位を取るとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -226886,32 +226886,32 @@ SC.CARDS = {
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -227166,22 +227166,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -227398,27 +227398,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -227957,32 +227957,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "オーディションマスタリーMe",
         "raw": "オーディションで1位を取るとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -228237,27 +228237,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -228476,37 +228476,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -228766,27 +228766,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -229046,27 +229046,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -229894,27 +229894,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -230131,27 +230131,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -230366,27 +230366,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -231181,27 +231181,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -231998,27 +231998,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -232241,27 +232241,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -232522,42 +232522,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 22
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 25
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -233105,27 +233105,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -240080,17 +240080,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -240262,27 +240262,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -240531,27 +240531,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -240758,37 +240758,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -241044,27 +241044,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "撮影マスタリーVi",
         "raw": "一緒に雑誌の撮影をするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "撮影マスタリーMe",
         "raw": "一緒に雑誌の撮影をするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -241324,27 +241324,27 @@ SC.CARDS = {
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -241561,27 +241561,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -241836,27 +241836,27 @@ SC.CARDS = {
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -242116,27 +242116,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -242387,27 +242387,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -242624,22 +242624,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "撮影マスタリーDa",
         "raw": "一緒に雑誌の撮影をするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -242858,32 +242858,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -243144,27 +243144,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -243427,32 +243427,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーDa上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -243712,27 +243712,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -243947,27 +243947,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -244184,37 +244184,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -244474,27 +244474,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -244995,27 +244995,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -245230,27 +245230,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -245508,27 +245508,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -245743,27 +245743,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -245978,27 +245978,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -246795,27 +246795,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -247326,27 +247326,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -247869,32 +247869,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -248730,27 +248730,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -249009,27 +249009,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -255663,17 +255663,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -255845,27 +255845,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -256083,27 +256083,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -256363,27 +256363,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 13
       }
     ],
     "panels": [
@@ -256646,37 +256646,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -256934,22 +256934,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ラジオマスタリーDa",
         "raw": "一緒にラジオへ出演するとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -257166,27 +257166,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -257446,27 +257446,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -257688,32 +257688,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -257972,32 +257972,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -258260,42 +258260,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -258560,27 +258560,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -258798,27 +258798,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -259894,27 +259894,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -260173,27 +260173,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -260408,27 +260408,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -260643,27 +260643,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -260878,27 +260878,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -261113,27 +261113,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -261348,32 +261348,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -261632,37 +261632,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルアドバイスマスタリー",
         "raw": "『say \"Halo\"』編でのビジュアルアドバイスの抽選確率がスキルLv.に応じて少し増加",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       }
     ],
     "panels": [
@@ -262220,27 +262220,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -262750,27 +262750,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -264136,42 +264136,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 22
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 25
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -264425,27 +264425,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -270362,17 +270362,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-15%",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -270544,27 +270544,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 13
       }
     ],
     "panels": [
@@ -270825,32 +270825,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -271108,27 +271108,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -271388,22 +271388,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -271624,37 +271624,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -271912,32 +271912,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "オーディションマスタリーSP",
         "raw": "オーディションで1位を取るとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "オーディションマスタリーMe",
         "raw": "オーディションで1位を取るとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -272192,27 +272192,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -272430,27 +272430,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -272711,32 +272711,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -272997,32 +272997,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -273281,27 +273281,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -273518,32 +273518,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーVi上限",
         "raw": "一緒にラジオへ出演するとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -273801,37 +273801,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -274092,27 +274092,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -274565,27 +274565,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -275088,27 +275088,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -275620,27 +275620,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -275863,27 +275863,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -276145,42 +276145,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -277016,27 +277016,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -278107,27 +278107,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -278387,37 +278387,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -284346,17 +284346,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -284528,27 +284528,27 @@ SC.CARDS = {
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -284808,22 +284808,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -285042,37 +285042,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -285330,27 +285330,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-30%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -285568,27 +285568,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -285848,27 +285848,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -286129,27 +286129,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -286370,37 +286370,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -286658,32 +286658,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVi上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -286940,27 +286940,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -287175,37 +287175,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -287465,27 +287465,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -287745,27 +287745,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -288802,27 +288802,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -289037,27 +289037,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -289893,27 +289893,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -290723,27 +290723,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -291525,37 +291525,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -297118,17 +297118,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリーVi",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -297300,27 +297300,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -297577,27 +297577,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -297814,32 +297814,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -298093,27 +298093,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -298613,37 +298613,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -298903,27 +298903,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -299140,32 +299140,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -299425,32 +299425,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーMe",
         "raw": "一緒にボーカルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -299707,27 +299707,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -300236,27 +300236,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -300814,27 +300814,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -301338,27 +301338,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -301573,27 +301573,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -301808,27 +301808,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -302330,27 +302330,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -303184,27 +303184,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -303987,27 +303987,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -310139,17 +310139,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -310321,27 +310321,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -310595,27 +310595,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -310832,22 +310832,22 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トークマスタリーSP",
         "raw": "一緒にトークショーへ出演するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       }
     ],
     "panels": [
@@ -311099,27 +311099,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -311338,32 +311338,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -311614,32 +311614,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -311896,32 +311896,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -312468,27 +312468,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -312707,37 +312707,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -312998,32 +312998,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーDa上限",
         "raw": "一緒にラジオへ出演するとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -313281,27 +313281,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -313755,27 +313755,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -314277,27 +314277,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -314803,27 +314803,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -315038,27 +315038,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -315275,42 +315275,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスアドバイスマスタリー",
         "raw": "『say \"Halo\"』編でのダンスアドバイスの抽選確率がスキルLv.に応じて少し増加",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -316156,27 +316156,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -317547,27 +317547,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -322827,17 +322827,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリーMe",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -323009,27 +323009,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -323246,42 +323246,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ラジオマスタリーVo上限",
         "raw": "一緒にラジオへ出演するとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トークマスタリーVo上限",
         "raw": "一緒にトークショーへ出演するとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トークマスタリー体力",
         "raw": "一緒にトークショーへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -323540,27 +323540,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 9
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -323777,27 +323777,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -324054,27 +324054,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -324334,37 +324334,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "テンションマスタリーSP＋",
         "raw": "テンション最高時に一緒に行動するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       }
     ],
     "panels": [
@@ -324624,37 +324624,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -324914,27 +324914,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -325151,27 +325151,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -325678,27 +325678,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -326483,27 +326483,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -327012,27 +327012,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -327255,27 +327255,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -327779,32 +327779,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -329232,27 +329232,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -334028,17 +334028,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ユニットマスタリーDa",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -334212,32 +334212,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "ユニットマスタリーVo",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -334494,27 +334494,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -334731,27 +334731,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -335008,27 +335008,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -335288,27 +335288,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -335525,42 +335525,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーVo上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 8
       }
     ],
     "panels": [
@@ -335822,27 +335822,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -336103,37 +336103,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアル滞在マスタリー",
         "raw": "ビジュアルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -336394,27 +336394,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -336632,27 +336632,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -337393,27 +337393,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -337924,27 +337924,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -338497,27 +338497,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -339033,27 +339033,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -339268,27 +339268,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -340351,27 +340351,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -345432,17 +345432,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+5",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -345614,32 +345614,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       },
       {
         "name": "ユニットマスタリーVi上限",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -345897,27 +345897,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -346176,32 +346176,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -346459,27 +346459,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -346738,27 +346738,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーMe",
         "raw": "一緒にビジュアルレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -346977,42 +346977,42 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ボーカル滞在マスタリー",
         "raw": "ボーカルレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -347274,27 +347274,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -347511,37 +347511,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "テンションマスタリーSP＋",
         "raw": "テンション最高時に一緒に行動するとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンス滞在マスタリー",
         "raw": "ダンスレッスン滞在率がUP",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリー体力",
         "raw": "一緒にダンスレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 7
       }
     ],
     "panels": [
@@ -347802,27 +347802,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -348039,27 +348039,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -348274,27 +348274,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -348799,27 +348799,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -349328,27 +349328,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -349571,27 +349571,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -350703,27 +350703,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -352053,37 +352053,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ダンスマスタリーDa上限",
         "raw": "一緒にダンスレッスンをするとDance上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -352605,27 +352605,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -356853,17 +356853,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で トラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -357035,32 +357035,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 16
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリー体力",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につき体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -357320,27 +357320,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -357599,27 +357599,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ラジオマスタリーMe",
         "raw": "一緒にラジオへ出演するとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -357836,32 +357836,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -358121,37 +358121,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリー体力",
         "raw": "一緒にビジュアルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ユニットマスタリーSP",
         "raw": "行動した場所に自分以外のユニットメンバーがいると1人につきSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       }
     ],
     "panels": [
@@ -358702,27 +358702,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -358937,32 +358937,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 14
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -359197,27 +359197,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -359767,27 +359767,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -360045,27 +360045,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -360323,27 +360323,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -360601,27 +360601,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -361429,27 +361429,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -361672,32 +361672,32 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "施設マスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合、行動した場所がレベルアップ",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -362243,27 +362243,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -364455,27 +364455,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -368308,17 +368308,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -368490,27 +368490,27 @@ SC.CARDS = {
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリー体力",
         "raw": "一緒にボーカルレッスンをすると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ラジオマスタリーVo",
         "raw": "一緒にラジオへ出演するとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ラジオマスタリー体力",
         "raw": "一緒にラジオへ出演すると体力<Lv*3>回復",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -368771,27 +368771,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -369049,27 +369049,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -369286,27 +369286,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -370160,27 +370160,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -370689,27 +370689,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -371486,27 +371486,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -372257,27 +372257,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -376155,27 +376155,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -376434,17 +376434,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で トラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -377134,27 +377134,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -377658,27 +377658,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -378476,27 +378476,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -379889,27 +379889,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -380682,37 +380682,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo上限",
         "raw": "一緒にボーカルレッスンをするとVocal上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "イベントブースト",
         "raw": "アイドルイベントとサポートイベントの発生率1+<Lv*0.1>倍",
-        "maxLv": null
+        "maxLv": 6
       }
     ],
     "panels": [
@@ -383965,27 +383965,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "ノウハウ発現マスタリー",
         "raw": "ノウハウブック獲得時、ノウハウ発現確率がUP",
-        "maxLv": null
+        "maxLv": 3
       }
     ],
     "panels": [
@@ -384202,17 +384202,17 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で トラブル率-5",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -384668,27 +384668,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -384905,27 +384905,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 1
       }
     ],
     "panels": [
@@ -385434,27 +385434,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "テンションマスタリーSP",
         "raw": "テンション最高時に一緒に行動すると確率でSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 6
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -385677,27 +385677,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -385914,27 +385914,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -387001,27 +387001,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ボーカルマスタリーSP",
         "raw": "一緒にボーカルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -387859,27 +387859,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -388096,27 +388096,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -388601,37 +388601,37 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ビジュアルマスタリーSP",
         "raw": "一緒にビジュアルレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "ビジュアルマスタリーVi上限",
         "raw": "一緒にビジュアルレッスンをするとVisual上限+<Lv*1>",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "パーフェクトマスタリー",
         "raw": "スキル発動時に一緒に行動してトラブルが起きなかった場合パーフェクトが発生",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "エクセレントブースト",
         "raw": "一緒に行動してエクセレントが発生するとエクセレント効果+<Lv*2>%",
-        "maxLv": null
+        "maxLv": 5
       }
     ],
     "panels": [
@@ -390011,42 +390011,42 @@ SC.CARDS = {
       {
         "name": "はづきさんの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 15
       },
       {
         "name": "ダンスマスタリーSP",
         "raw": "一緒にダンスレッスンをするとSP+<Lv*1>",
-        "maxLv": null
+        "maxLv": 18
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-15",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 10
       },
       {
         "name": "ベストアドバイスマスタリー++",
         "raw": "『say \"Halo\"』編でのベストアドバイスの抽選確率がスキルLv.に応じて大きく増加",
-        "maxLv": null
+        "maxLv": 12
       },
       {
         "name": "ダンスマスタリーMe",
         "raw": "一緒にダンスレッスンをするとメンタル+<Lv*1>",
-        "maxLv": null
+        "maxLv": 15
       }
     ],
     "panels": [
@@ -390591,27 +390591,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ボーカルマスタリーVo",
         "raw": "一緒にボーカルレッスンをするとVocal+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -390828,27 +390828,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ダンスマスタリーDa",
         "raw": "一緒にダンスレッスンをするとDance+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -391065,27 +391065,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 4
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+10",
-        "maxLv": null
+        "maxLv": 2
       },
       {
         "name": "トラブルガード",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率でトラブル率-10",
-        "maxLv": null
+        "maxLv": 2
       }
     ],
     "panels": [
@@ -394712,27 +394712,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [
@@ -394991,27 +394991,27 @@ SC.CARDS = {
       {
         "name": "アイドルの絆",
         "raw": "プロデュース開始時に絆+<Lv*5>",
-        "maxLv": null
+        "maxLv": 5
       },
       {
         "name": "ビジュアルマスタリーVi",
         "raw": "一緒にビジュアルレッスンをするとVisual+<Lv*1>",
-        "maxLv": null
+        "maxLv": 8
       },
       {
         "name": "約束リカバー",
         "raw": "「約束」を守れなかった場合に<Lv*5>%の確率でテンションが下がらない",
-        "maxLv": null
+        "maxLv": 3
       },
       {
         "name": "おやすみブースト",
         "raw": "「休む」を選択時に<Lv*3>%の確率で体力回復量+15",
-        "maxLv": null
+        "maxLv": 1
       },
       {
         "name": "体力サポート",
         "raw": "レッスンかお仕事を選択する時に<Lv*3>%の確率で体力消費量-50%",
-        "maxLv": null
+        "maxLv": 4
       }
     ],
     "panels": [

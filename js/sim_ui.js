@@ -483,13 +483,34 @@ SC._simOneShotChunk = function (run) {
 // ---- v0.25.37: 230万周回の1〆数（1〆パネルの下。ロジックは sim.js の SC.sim230Start/Step/Compute） ----
 // 例「230万周回／1〆 期待 8.9/17（52.4%）」（v0.25.38: 見出しの週範囲・オーデ別の内訳は表示しない。S2残り1週〜S4残り1週の17戦で計算）。
 //   既存の1〆（該当オーディション）の計算が終わってから始める（1〆の実行中は待つ）。進捗「計算中 n/102」（v0.25.40: 17週×6流行。旧 n/36）。入力が変わったら中断して再計算。
-//   キャッシュは SC.sim230Key（1〆のキーから 週・オーデ・流行 を除いたもの）＝週・オーデ・流行・ターン・判定・選択札を変えても再計算しない。
-//   Pアイドルが選ばれていれば（週が未選択でも）計算できる（SC.sim230Ready）。未選択なら何も出さない
+//   キャッシュは SC.sim230Key（1〆のキーから 週・オーデ・流行 を除き、ステ成長の起点を足したもの）＝オーデ・流行・ターン・判定・選択札を変えても再計算しない。
+//   v0.25.54: 1〆と同じく Pアイドルと週が選ばれてから計算する（SC.sim230Ready＝SC.simReady）。未選択の間は1〆と同じ「—」。
+//     週を変えると起点（SC.sim230AnchorIndex）が変わる時だけ再計算。下に「ステ成長込み」の最初→最後の週のステ（週ごとの値は title）と注記
 SC._sim230 = null;       // 確定済み { key, result }
 SC._sim230Run = null;    // 実行中 { key, runner, timer }
+// v0.25.54: ステ成長の表示。最初の週→最後の週の Vo/Da/Vi（週ごとのステ・オーデは title で一覧）＋サポートコミュ等は含まない旨の注記
+//   （v0.25.38 のユーザー指定で週範囲「S2残り…」は本文に出さない。見出しは「ステ成長込み」だけ＝括弧書きはユーザー指定で削除）
+SC.sim230GrowHtml = function (inp) {
+  const plan = SC.sim230StatPlan(inp);
+  const ws = plan.weeks;
+  if (!ws.length) return '';
+  const E = SC.simEsc;
+  const f = ws[0].stats, l = ws[ws.length - 1].stats;
+  const lab = {};
+  SC.simWeekOptions().forEach(function (o) { lab[o.key] = o.label; });
+  const audLabel = function (id) { const a = SC.SIM230_AUDS.filter(function (x) { return x.id === id; })[0]; return a ? a.label : id; };
+  const row = function (s) { return 'Vo ' + SC.fmt(s.vo) + ' / Da ' + SC.fmt(s.da) + ' / Vi ' + SC.fmt(s.vi) + ' / Me ' + SC.fmt(s.me); };
+  const tip = '入力した週のステを起点に、毎週1位合格の報酬（期待値）とオーディションマスタリーで前後の週を計算\n' +
+    ws.map(function (w) { return lab[w.weekKey] + ' ' + audLabel(w.auditionId) + '：' + row(w.stats); }).join('\n');
+  const cell = function (at, nm) { return '<span>' + nm + ' ' + SC.fmt(f[at]) + '→' + SC.fmt(l[at]) + '</span>'; };
+  return '<div class="sim-s230-grow" title="' + E(tip) + '"><div class="sim-s230-grow-h">ステ成長込み</div>' +
+    '<div class="sim-s230-grow-v">' + cell('vo', 'Vo') + cell('da', 'Da') + cell('vi', 'Vi') + '</div></div>' +
+    '<div class="sim-s230-note">※サポートコミュ等によるステ上昇は含みません</div>';
+};
 SC.sim230Html = function () {
   const inp = SC._simInputs;
-  if (!inp || !SC.sim230Ready(inp)) return '';
+  if (!inp) return '';
+  if (!SC.sim230Ready(inp)) return '<div class="sim-s230"><div class="sim-s230-h">230万周回</div><div class="sim-s230-dash">—</div></div>';   // v0.25.54: 1〆と同じく未選択なら計算しない
   const key = SC.sim230Key(inp);
   let c = SC._sim230;
   if (!c || c.key !== key) {   // v0.25.40: 永続キャッシュを先に引く（ヒットなら即表示・「計算中 n/102」を出さない）
@@ -509,7 +530,7 @@ SC.sim230Html = function () {
     const pct = r.weeks > 0 && isFinite(r.expect) ? r.expect / r.weeks * 100 : 0;   // NaNガード
     body = '<div class="sim-s230-main">1〆 期待 <b>' + r.expect.toFixed(1) + '</b>/' + r.weeks + '（' + pct.toFixed(1) + '%）</div>';
   }
-  return '<div class="sim-s230"><div class="sim-s230-h">230万周回</div>' + body + '</div>';
+  return '<div class="sim-s230"><div class="sim-s230-h">230万周回</div>' + body + SC.sim230GrowHtml(inp) + '</div>';
 };
 // 実行中の230万の計算を破棄する（入力が変わった時・未選択になった時）
 SC.sim230Cancel = function () {

@@ -7,6 +7,8 @@ window.SC = window.SC || {};
 // UR: Lv90→15 / SSR: Lv80→10 / SR: Lv70→7 / R: Lv60→4
 // 出典: シャニマスwiki「サポートアイドル」絆スキルLv表（絆スキルのみ確認済み）
 // 他スキル（マスタリー等）のLvテーブルは絆と異なる可能性あり [推測]
+// v0.25.55: カードデータの maxLv（wiki の表の「最大」列、無い表は行のスキルLvの最大値。tools/convert_cards.js）が全サポートスキルに入ったので、
+//   この既定値は maxLv が無い時（仮データのサポ等）の予備。実カードの古いSSRは絆5・マスタリー8〜16など、既定の10と違うものが多い
 SC.SUPPORT_SKILL_LV = { UR: 15, SSR: 10, SR: 7, R: 4 };
 
 // rawから <Lv*N> の Lv*N 値を返す（_rarity引数: サポのレアリティ。省略時SSR想定）
@@ -18,11 +20,31 @@ SC.parseSupportSkillValue = function (raw, rarity, maxLv) {
   return lv * Number(m[1]);
 };
 
-// rawから N% を返す（0〜1。見つからなければ1.0）
-SC.parseSupportSkillProb = function (raw) {
-  const m = raw && raw.match(/(\d+)%/);
+// rawから発動率を返す（0〜1。確率の記載が無ければ1.0＝確定）
+// v0.25.56: 「<Lv*N>%の確率」は スキルLv×N%（Lv=カードの maxLv。無い時だけレアリティ既定 SC.SUPPORT_SKILL_LV）。
+//   従来は最初の「数字%」を読むだけで <Lv*N>% を読めず、約束リカバー・おやすみブースト=常に100%、
+//   体力サポート=「体力消費量-N%」の N を確率にしていた（ユーザー指摘で修正 2026-11-20）。
+//   数字の確率「N%の確率」（仮データ・テスト用）はその値。「の確率」が無い「N%」は確率として読まない
+SC.parseSupportSkillProb = function (raw, rarity, maxLv) {
+  if (!raw) return 1.0;
+  const lm = raw.match(/<Lv\*(\d+)>%/);
+  if (lm) {
+    const lv = (maxLv != null) ? maxLv : (SC.SUPPORT_SKILL_LV[rarity] || SC.SUPPORT_SKILL_LV.SSR);
+    const p = lv * Number(lm[1]) / 100;
+    return isFinite(p) ? Math.max(0, Math.min(1, p)) : 1.0;
+  }
+  const m = raw.match(/(\d+)%の確率/);
   if (!m) return 1.0;
-  return Number(m[1]) / 100;
+  return Math.max(0, Math.min(1, Number(m[1]) / 100));
+};
+
+// v0.25.56: 体力サポートの軽減%（効果文「体力消費量-N%」の N。読めない時だけレアリティ別の既定 [仮データ]）
+//   従来はレアリティ別の固定値（SSR/UR 50・SR 30・R 30）。実カードの効果文は SSR/UR -50%・SR -30%・R -15%（R だけ違っていた）
+SC.STAMINA_REDUCTION_PCT = { SSR: 50, SR: 30, R: 30, UR: 50 }; // 効果文が読めない時の予備 [仮データ]
+SC.staminaReductionPct = function (raw, rarity) {
+  const m = raw && raw.match(/消費量-(\d+)%/);
+  if (m) return Number(m[1]);
+  return rarity ? (SC.STAMINA_REDUCTION_PCT[rarity] || 30) : 30;
 };
 
 // ==== v0.25.17: 同席マスタリーの統合計算（実発動=doFacility / 予測=スケジュール画面で共用） ====
@@ -298,13 +320,12 @@ SC.doFacility = function (key) {
     });
   });
   let totalStaminaReductionPct = 0; // 発動した軽減%の合計（0〜80）
-  // 体力サポート軽減%: sSSR=50% / sSR=30% / sR/その他=30%[仮データ]
-  const STAMINA_REDUCTION_PCT = { SSR: 50, SR: 30, R: 30, UR: 50 }; // UR=[仮データ]
+  // 体力サポート: 発動率=スキルLv×N%・軽減%=効果文の「体力消費量-N%」（v0.25.56。SC.parseSupportSkillProb / SC.staminaReductionPct）
   staminaSupportSkills.forEach(function (sk) {
-    const prob = SC.parseSupportSkillProb(sk.raw);
+    const prob = SC.parseSupportSkillProb(sk.raw, sk._rarity, sk.maxLv);
     if (SC.chance(prob)) {
-      // sk._rarity: getSeatSkills経由でサポのrarityを渡すため、sk所有サポのrarityを参照
-      const reductionPct = sk._rarity ? (STAMINA_REDUCTION_PCT[sk._rarity] || 30) : 30; // rarity未設定時30%[仮データ]
+      // sk._rarity: サポのレアリティ（効果文に軽減%が無い時の予備にだけ使う）
+      const reductionPct = SC.staminaReductionPct(sk.raw, sk._rarity);
       totalStaminaReductionPct += reductionPct;
       // v0.15a: カード名（サポ表示名）付きで1行ずつログ出力
       const supLabel = sk._supName || sk.name;
@@ -454,7 +475,7 @@ SC.doRest = function () {
     const supName = sup.name || 'サポート';
     sup.supportSkills.forEach(function (sk) {
       if (sk.name && sk.name.indexOf('おやすみブースト') >= 0) {
-        allRestBoostSources.push(Object.assign({}, sk, { _supName: supName }));
+        allRestBoostSources.push(Object.assign({}, sk, { _supName: supName, _rarity: sup.rarity || null }));
       }
     });
   });
@@ -462,14 +483,14 @@ SC.doRest = function () {
     const guestName = SC.GUEST.name || 'ゲスト';
     SC.GUEST.supportSkills.forEach(function (sk) {
       if (sk.name && sk.name.indexOf('おやすみブースト') >= 0) {
-        allRestBoostSources.push(Object.assign({}, sk, { _supName: guestName }));
+        allRestBoostSources.push(Object.assign({}, sk, { _supName: guestName, _rarity: SC.GUEST.rarity || null }));
       }
     });
   }
-  // 各ブーストソースに対して発動判定し、発動したものを収集
+  // 各ブーストソースに対して発動判定し、発動したものを収集（v0.25.56: 発動率=スキルLv×N%）
   const activatedBoosts = []; // { supName, v }
   allRestBoostSources.forEach(function (sk) {
-    const prob = SC.parseSupportSkillProb(sk.raw);
+    const prob = SC.parseSupportSkillProb(sk.raw, sk._rarity, sk.maxLv);
     if (SC.chance(prob)) {
       // rawから回復量を読む（+数字の形式[仮データ]）
       const m = sk.raw && sk.raw.match(/\+(\d+)/);
@@ -707,16 +728,17 @@ SC.tryPromiseRecover = function () {
   SC.SUPPORTS.forEach(function (sup) {
     if (!sup || !sup.supportSkills) return;
     sup.supportSkills.forEach(function (sk) {
-      if (sk.name && sk.name.indexOf('約束リカバー') >= 0) allRecoverSources.push(sk);
+      if (sk.name && sk.name.indexOf('約束リカバー') >= 0) allRecoverSources.push(Object.assign({}, sk, { _rarity: sup.rarity || null }));
     });
   });
   if (SC.GUEST && SC.GUEST.supportSkills) {
     SC.GUEST.supportSkills.forEach(function (sk) {
-      if (sk.name && sk.name.indexOf('約束リカバー') >= 0) allRecoverSources.push(sk);
+      if (sk.name && sk.name.indexOf('約束リカバー') >= 0) allRecoverSources.push(Object.assign({}, sk, { _rarity: SC.GUEST.rarity || null }));
     });
   }
+  // v0.25.56: 発動率=スキルLv×N%（各サポ独立に抽選・1件でも発動すれば成功）
   for (let i = 0; i < allRecoverSources.length; i++) {
-    const prob = SC.parseSupportSkillProb(allRecoverSources[i].raw);
+    const prob = SC.parseSupportSkillProb(allRecoverSources[i].raw, allRecoverSources[i]._rarity, allRecoverSources[i].maxLv);
     if (SC.chance(prob)) return true; // 1件でも発動すればリカバー成功[仮データ]
   }
   return false;

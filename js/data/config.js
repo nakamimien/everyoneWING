@@ -451,7 +451,13 @@ SC.AUDITIONS = [
     ] },
   { id: 'utahime', season: 3, name: '歌姫楽宴', fans: 300000,
     unlock: { rank: 'S' }, noBeginner: true, hp: [null, 144000, 216000], dmg: [null, 40, 53],
-    way: 3, statReward: 10, rivalMental: 600, atk: [null, 10551, 15828], rivals: [
+    way: 3, statReward: 10, rivalMental: 600, atk: [null, 10551, 15828],
+    // v0.25.53: 1ターン目のライバル判定 [Perfect, Good, Normal]（残りBad）＝実測（ユーザー提供 情報/判定解析（歌姫ライバル判定率）.xlsx・ミドル991周×ライバル5人の1ターン目。
+    //   Perfect 1937 / Good 2480 / Normal 538 / Bad 0（計4955）。ライバル間の差なし・互いに独立）。ミドルだけ（マスターは未計測＝従来のシーズン別）。2ターン目以降も従来どおり
+    // v0.25.54: 実測の割合（39.09/50.05/10.86%）ではなく、設定値は切りのいい値で実測はそのブレという見方で 40/50/10 に（ユーザー指定）。
+    //   実測は 40/50/10 と統計的に矛盾しない（χ²=4.67・自由度2・p≈0.10）。[推測]（実測から丸めた値）
+    rivalJudgeT1: [null, [0.40, 0.50, 0.10], null],
+    rivals: [
       { name: '凛世', fav: 'vi', r: [null, 's3>1', 's2>3'] },
       { name: '夏葉', fav: 'vo', r: [null, 's1>2', 's1>2'] },
       { name: '千雪', fav: 'da', r: [null, 'c231', 'c231'] },
